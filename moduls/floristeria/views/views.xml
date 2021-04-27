@@ -1,0 +1,149 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="floristeria.clients_tree"> <!-- Vista tree Clients -->
+      <field name="name">floristeria.clients.tree</field>
+      <field name="model">floristeria.clients</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="cognom"/>
+          <field name="telefon"/>
+          <field name="mail"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="floristeria.clients_form"> <!-- Vista form Clients -->
+      <field name="name">floristeria.clients.form</field>
+      <field name="model">floristeria.clients</field>      
+      <field name="arch" type="xml">        
+        <form>          
+          <group colspan="2" col="2">            
+            <field name="name"/>            
+            <field name="cognom"/>
+            <field name="telefon"/>
+            <field name="mail"/>
+            <field name="comandes">
+              <tree decoration-danger="pagat==False" decoration-success="pagat==True">
+                <field name="data"/>
+                <field name="portar"/>
+                <field name="preuFinal"/>
+                <field name="pagat"/>
+              </tree>
+            </field>
+          </group>        
+        </form>      
+      </field>    
+    </record>
+
+    <record model="ir.ui.view" id="floristeria.comandes_tree"> <!-- Vista tree Comandes -->
+      <field name="name">floristeria.comandes.tree</field>
+      <field name="model">floristeria.comandes</field>
+      <field name="arch" type="xml">
+        <tree decoration-danger="pagat==False" decoration-success="pagat==True">
+          <field name="nameClient"/>
+          <field name="data"/>
+          <field name="portar"/>
+          <field name="preu"/>
+          <field name="preuFinal"/>
+          <field name="pagat" invisible="1"/>
+        </tree>
+      </field>
+    </record>
+  
+    <record model="ir.ui.view" id="floristeria.comandes_form"> <!-- Vista form Comandes -->
+      <field name="name">floristeria.comandes.form</field>
+      <field name="model">floristeria.comandes</field>
+      <field name="arch" type="xml">
+        <form>
+          <group colspan="2" col="2"> 
+            <field name="nameClient"/>
+            <field name="data"/>
+            <field name="direccio"/>
+            <field name="portar"/>
+            <field name="productes">
+              <tree> 
+                <field name="name"/>
+                <field name="preuProducte"/>
+                <field name="cantitat"/>
+                <field name="total"/>
+              </tree>
+            </field>
+            <field name="preu"/>
+            <field name="preuFinal"/>
+            <field name="pagat"/>
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="floristeria.productes_tree"> <!-- Vista tree Productes -->
+      <field name="name">floristeria.productes.tree</field>
+      <field name="model">floristeria.productes</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="preuProducte"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="floristeria.productes_form"> <!-- Vista form Productes -->
+      <field name="name">floristeria.productes.form</field>
+      <field name="model">floristeria.productes</field>
+      <field name="arch" type="xml">
+        <form>
+          <group colspan="2" col="2"> 
+            <field name="imatge" widget="image" height="200" width="200"/>
+            <field name="name"/>
+            <field name="preuProducte"/>
+            <field name="descripcio"/>
+            <field name="cantitat"/>
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions -->
+
+    <record model="ir.actions.act_window" id="floristeria.clients_action_window">      
+      <field name="name">Clients</field>      
+      <field name="res_model">floristeria.clients</field>      
+      <field name="view_mode">tree,form</field>    
+    </record>
+    <record model="ir.actions.act_window" id="floristeria.comandes_action_window">      
+      <field name="name">Comandes</field>      
+      <field name="res_model">floristeria.comandes</field>      
+      <field name="view_mode">tree,form</field>    
+    </record>
+    <record model="ir.actions.act_window" id="floristeria.productes_action_window">      
+      <field name="name">Productes</field>      
+      <field name="res_model">floristeria.productes</field>      
+      <field name="view_mode">tree,form</field>    
+    </record>
+
+    <!-- Top menu item -->
+
+    <menuitem name="Floristeria" id="floristeria.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem 
+      name="Clients" 
+      id="floristeria.clients_menu" 
+      parent="floristeria.menu_root"
+      action="floristeria.clients_action_window"/>
+    <menuitem 
+      name="Comandes" 
+      id="floristeria.comandes_menu" 
+      parent="floristeria.menu_root"
+      action="floristeria.comandes_action_window"/>
+    <menuitem 
+      name="Productes" 
+      id="floristeria.productes_menu" 
+      parent="floristeria.menu_root"
+      action="floristeria.productes_action_window"/>  
+    
+  </data>
+</odoo>

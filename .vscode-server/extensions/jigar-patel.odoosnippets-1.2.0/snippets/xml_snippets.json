@@ -1,0 +1,623 @@
+{
+    "Odoo namespace": {
+        "prefix": "<odoo>",
+        "body": [
+            "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+            "<odoo>",
+            "",
+            "\t${0}",
+            "",
+            "</odoo>",
+            ""
+        ],
+        "description": "Add Odoo namespace"
+    },
+    "Data namespace": {
+        "prefix": "<data>",
+        "body": [
+            "<data${10: noupdate=\"1\"}>",
+            "",
+            "\t${0}",
+            "",
+            "</data>",
+            ""
+        ],
+        "description": "Add Odoo namespace"
+    },
+    "Root menu": {
+        "prefix": "<menuitem>",
+        "body": [
+            "<menuitem",
+            "\tid=\"${1:model_name}_menu\"",
+            "\tname=\"${2:name}\"",
+            "\tsequence=\"${3:10}\"/>"
+        ],
+        "description": "Add root menu"
+    },
+    "Sub menu": {
+        "prefix": "<menuitem>",
+        "body": [
+            "<menuitem",
+            "\tid=\"${1:model_name}_menu\"",
+            "\tname=\"${2:name}\"",
+            "\taction=\"${3:action_id}\"",
+            "\tgroups=\"${4:groups_id}\"",
+            "\tparent=\"${5:parent_id}\"",
+            "\tsequence=\"${6:10}\"/>"
+        ],
+        "description": "Add sub menu"
+    },
+    "Form view": {
+        "prefix": "<form>",
+        "body": [
+            "<record id=\"${1:model_name}_view_form\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.form</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<form string=\"${3}\">",
+            "\t\t\t<sheet>",
+            "\t\t\t\t<group>",
+            "\t\t\t\t\t${0}",
+            "\t\t\t\t</group>",
+            "\t\t\t</sheet>",
+            "\t\t</form>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add form view"
+    },
+    "List view": {
+        "prefix": "<list>",
+        "body": [
+            "<record id=\"${1:model_name}_view_tree\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.tree</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<tree string=\"${3}\">",
+            "\t\t\t${0}",
+            "\t\t</tree>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add list view"
+    },
+    "Kanban view": {
+        "prefix": "<kanban>",
+        "body": [
+            "<record id=\"${1:model_name}_view_kanban\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.kanban</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<kanban>",
+            "\t\t\t<templates>",
+            "\t\t\t\t<t t-name=\"kanban-box\">",
+            "\t\t\t\t\t${0}",
+            "\t\t\t\t</t>",
+            "\t\t\t</templates>",
+            "\t\t</kanban>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add kanban view"
+    },
+    "Search view": {
+        "prefix": "<search>",
+        "body": [
+            "<record id=\"${1:model_name}_view_search\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.search</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<search string=\"${3}\">",
+            "\t\t\t${0}",
+            "\t\t</search>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add search view"
+    },
+    "Calendar view": {
+        "prefix": "<calendar>",
+        "body": [
+            "<record id=\"${1:model_name}_view_calendar\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.calendar</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<calendar string=\"${3}\" date_start=\"${4:date_start_field}\" color=\"${5:color_field}\">",
+            "\t\t\t${0}",
+            "\t\t</calendar>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add calendar view"
+    },
+    "Cohort view": {
+        "prefix": "<cohort>",
+        "body": [
+            "<record id=\"${1:model_name}_view_cohort\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.cohort</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<cohort string=\"${3}\" date_start=\"${4:date_start_field}\" date_stop=\"${5:date_stop_field}\">",
+            "\t\t</cohort>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add cohort view"
+    },
+    "Gantt view": {
+        "prefix": "<gantt>",
+        "body": [
+            "<record id=\"${1:model_name}_view_gantt\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.gantt</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<gantt string=\"${3}\" date_start=\"${4:date_start_field}\" date_stop=\"${5:date_stop_field}\">",
+            "\t\t</gantt>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add gantt view"
+    },
+    "Graph view": {
+        "prefix": "<graph>",
+        "body": [
+            "<record id=\"${1:model_name}_view_graph\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.graph</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<graph string=\"${3}\" type=\"${4|bar,line,pie|}\">",
+            "\t\t\t${0}",
+            "\t\t</graph>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add graph view"
+    },
+    "Pivot view": {
+        "prefix": "<pivot>",
+        "body": [
+            "<record id=\"${1:model_name}_view_pivot\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.pivot</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<pivot string=\"${3}\" disable_linking=\"${4|true,false|}\">",
+            "\t\t\t${0}",
+            "\t\t</pivot>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add pivot view"
+    },
+    "Activity view": {
+        "prefix": "<activity>",
+        "body": [
+            "<record id=\"${1:model_name}_view_activity\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.activity</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<activity string=\"${3}\">",
+            "\t\t\t<templates>",
+            "\t\t\t\t<div t-name=\"activity-box\">",
+            "\t\t\t\t\t${0}",
+            "\t\t\t\t</div>",
+            "\t\t\t</templates>",
+            "\t\t</activity>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add activity view"
+    },
+    "Qweb view": {
+        "prefix": "<qweb>",
+        "body": [
+            "<record id=\"${1:model_name}_view_qweb\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2:model.name}.view.qweb</field>",
+            "\t<field name=\"model\">${2:model.name}</field>",
+            "\t<field name=\"type\">qweb</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t${0}",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add qweb view"
+    },
+    "View inherit": {
+        "prefix": "<viewInherit>",
+        "body": [
+            "<record id=\"${1:inherit_view_id}_inherit_${2:module_name}\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${3:model.name}.view.${4|form,list,kanban,search,calendar,cohort,gantt,graph,pivot,activity,qweb|}.inherit</field>",
+            "\t<field name=\"model\">${3:model.name}</field>",
+            "\t<field name=\"inherit_id\" ref=\"${5:inherit_module_name}.${1:inherit_view_id}\"/>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t${0}",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add inherited view"
+    },
+    "Header button": {
+        "prefix": "<buttonHeader>",
+        "body": [
+            "<button string=\"${1}\" name=\"${2:action_name}\" type=\"${3|object,action|}\" class=\"oe_highlight\"/>"
+        ],
+        "description": "Add button in form view header"
+    },
+    "Button box": {
+        "prefix": "<buttonBox>",
+        "body": [
+            "<div class=\"oe_button_box\" name=\"button_box\">",
+            "\t<button name=\"${1:action_name}\" type=\"${2|object,action|}\" class=\"oe_stat_button\" icon=\"fa-${3}\">",
+            "\t\t<field name=\"${4:field_name}\" string=\"${5}\" widget=\"statinfo\"/>",
+            "\t</button>",
+            "</div>"
+        ],
+        "description": "Add stat button container in form view"
+    },
+    "Stat button": {
+        "prefix": "<buttonStat>",
+        "body": [
+            "<button name=\"${1:action_name}\" type=\"${2|object,action|}\" class=\"oe_stat_button\" icon=\"fa-${3}\">",
+            "\t<field name=\"${4:field_name}\" string=\"${5}\" widget=\"statinfo\"/>",
+            "</button>"
+        ],
+        "description": "Add stat button in form view"
+    },
+    "Self-closing field tag": {
+        "prefix": "<field>",
+        "body": [
+            "<field name=\"${1}\" ${2}/>${0}"
+        ],
+        "description": "Add a self-closing field tag"
+    },
+    "Field tag": {
+        "prefix": "<field>",
+        "body": [
+            "<field name=\"${1}\"${2}>${3}</field>${0}"
+        ],
+        "description": "Add field tag"
+    },
+    "Notebook": {
+        "prefix": "<notebook>",
+        "body": [
+            "<notebook>",
+            "\t<page name=\"${1:name}\" string=\"${2:string}\">",
+            "\t\t$0",
+            "\t</page>",
+            "</notebook>"
+        ],
+        "description": "Add a notebook"
+    },
+    "Page": {
+        "prefix": "<page>",
+        "body": [
+            "<page name=\"${1:name}\" string=\"${2:string}\">",
+            "\t$0",
+            "</page>"
+        ],
+        "description": "Add a notebook page"
+    },
+    "Chatter": {
+        "prefix": "<chatter>",
+        "body": [
+            "<div class=\"oe_chatter\">",
+            "\t<field name=\"message_follower_ids\" widget=\"mail_followers\"/>",
+            "\t<field name=\"activity_ids\" widget=\"mail_activity\"/>",
+            "\t<field name=\"message_ids\" widget=\"mail_thread\"/>",
+            "</div>"
+        ],
+        "description": "Add chatter"
+    },
+    "Action (v12 and older)": {
+        "prefix": "<action>",
+        "body": [
+            "<record id=\"${1:model_name}_action\" model=\"ir.actions.act_window\">",
+            "\t<field name=\"name\">${2:Action Name}</field>",
+            "\t<field name=\"res_model\">${3:model.name}</field>",
+            "\t<field name=\"view_type\">${4:form}</field>",
+            "\t<field name=\"view_mode\">${5:tree,form}</field>",
+            "\t<field name=\"domain\">[${6}]</field>",
+            "\t<field name=\"context\">{${7}}</field>",
+            "\t<field name=\"help\" type=\"html\">",
+            "\t\t${0}",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add an action"
+    },
+    "Action (v13)": {
+        "prefix": "<action>",
+        "body": [
+            "<record id=\"${1:model_name}_action\" model=\"ir.actions.act_window\">",
+            "\t<field name=\"name\">${2:Action Name}</field>",
+            "\t<field name=\"res_model\">${3:model.name}</field>",
+            "\t<field name=\"view_mode\">${4:tree,form}</field>",
+            "\t<field name=\"domain\">[${5}]</field>",
+            "\t<field name=\"context\">{${6}}</field>",
+            "\t<field name=\"help\" type=\"html\">",
+            "\t\t${0}",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Add an action"
+    },
+    "Action view": {
+        "prefix": "<actionView>",
+        "body": [
+            "<record id=\"action_${1:action_view_name}\" model=\"ir.actions.act_window.view\">",
+            "\t<field name=\"sequence\" eval=\"${2:1}\"/>",
+            "\t<field name=\"view_mode\">${3:view_name}</field>",
+            "\t<field name=\"act_window_id\" ref=\"${4:action_id}\"/>",
+            "\t<field name=\"view_id\" ref=\"${5:view_id}\"/>",
+            "</record>"
+        ],
+        "description": "Add view in action"
+    },
+    "Server action": {
+        "prefix": "<actionServer>",
+        "body": [
+            "<record id=\"${1:model_name}_action_server\" model=\"ir.actions.server\">",
+            "\t<field name=\"name\">${2:Action Name}</field>",
+            "\t<field name=\"model_id\" ref=\"model_${1:model_name}\"/>",
+            "\t<field name=\"binding_model_id\" ref=\"model_${1:model_name}\"/>",
+            "\t<field name=\"state\">code</field>",
+            "\t<field name=\"code\">${0}</field>",
+            "</record>"
+        ],
+        "description": "Add server action"
+    },
+    "URL action": {
+        "prefix": "<actionUrl>",
+        "body": [
+            "<record id=\"action_${1:action_name}\" model=\"ir.actions.act_url\">",
+            "\t<field name=\"name\">${2:Action Name}</field>",
+            "\t<field name=\"url\">${3:url}</field>",
+            "\t<field name=\"target\">${4|new,self|}</field>",
+            "</record>"
+        ],
+        "description": "Add URL action"
+    },
+    "Client action": {
+        "prefix": "<actionClient>",
+        "body": [
+            "<record id=\"action_${1:action_name}\" model=\"ir.actions.client\">",
+            "\t<field name=\"name\">${2:Action Name}</field>",
+            "\t<field name=\"tag\">${3:action_tag_name}</field>",
+            "\t<field name=\"target\">${4|main,fullscreen,new|}</field>",
+            "</record>"
+        ],
+        "description": "Add client action"
+    },
+    "Report action": {
+        "prefix": "<actionReport>",
+        "body": [
+            "<report",
+            "\tid=\"action_report_${1:model_name}\"",
+            "\tmodel=\"${2:model.name}\"",
+            "\tstring=\"${3:Report name}\"",
+            "\treport_type=\"${4|qweb-pdf,qweb-html,qweb-text|}\"",
+            "\tname=\"${5:module_name.report_template_name}\"",
+            "\tfile=\"${5:module_name.report_template_name}\"",
+            "/>"
+        ],
+        "description": "Add report action"
+    },
+    "Report template": {
+        "prefix": "<report>",
+        "body": [
+            "<template id=\"${1:report_template_name}\">",
+            "\t<t t-call=\"web.html_container\">",
+            "\t\t<t t-foreach=\"docs\" t-as=\"doc\">",
+            "\t\t\t<t t-call=\"web.${2|external,internal|}_layout\">",
+            "\t\t\t\t<div class=\"page\">",
+            "\t\t\t\t\t${0}",
+            "\t\t\t\t</div>",
+            "\t\t\t</t>",
+            "\t\t</t>",
+            "\t</t>",
+            "</template>"
+        ],
+        "description": "Add report template"
+    },
+    "Cron job": {
+        "prefix": "<cron>",
+        "body": [
+            "<record id=\"${1:model_name}_cron\" model=\"ir.cron\">",
+            "\t<field name=\"name\">${2:Cron Name}</field>",
+            "\t<field name=\"model_id\" ref=\"model_${1:model_name}\"/>",
+            "\t<field name=\"interval_number\">${4:1}</field>",
+            "\t<field name=\"interval_type\">${5|minutes,hours,days,weeks,months|}</field>",
+            "\t<field name=\"numbercall\">${6:-1}</field>",
+            "\t<field name=\"state\">code</field>",
+            "\t<field name=\"code\">${0}</field>",
+            "</record>"
+        ],
+        "description": "Add cron job"
+    },
+    "Record": {
+        "prefix": "<record>",
+        "body": [
+            "<record id=\"${1:record_name}\" model=\"${2:model_name}\">",
+            "\t<field name=\"${3:field_name}\">${4:field_value}</field>",
+            "</record>"
+        ],
+        "description": "Add record"
+    },
+    "Function": {
+        "prefix": "<function>",
+        "body": [
+            "<function model=\"${1:model.name}\" name=\"${2:method_name}\" eval=\"[ref('${3:record_id}')]\">",
+            "</function>"
+        ],
+        "description": "Add function"
+    },
+    "Template": {
+        "prefix": "<template>",
+        "body": [
+            "<template id=\"${1:template_id}\" name=\"${2:template_name}\">",
+            "\t${0}",
+            "</template>"
+        ],
+        "description": "Add template"
+    },
+    "Inherit template": {
+        "prefix": "<templateInherit>",
+        "body": [
+            "<template id=\"${1:template_id}\" name=\"${3:template_name}\" inherit_id=\"${2:module_name}.${1:template_id}\">",
+            "\t<xpath expr=\"${4}\" position=\"${5|inside,after,before,replace,move,attributes|}\">",
+            "\t\t$0",
+            "\t</xpath>",
+            "</template>"
+        ],
+        "description": "Add inherited template"
+    },
+    "Xpath": {
+        "prefix": "<xpath>",
+        "body": [
+            "<xpath expr=\"${1}\" position=\"${2|inside,after,before,replace,move,attributes|}\">",
+            "\t$0",
+            "</xpath>"
+        ],
+        "description": "Add xpath"
+    },
+    "Xpath attributes": {
+        "prefix": "<xpathAttr>",
+        "body": [
+            "<xpath expr=\"${1}\" position=\"attributes\">",
+            "\t<attribute name=\"${20:class}\" separator=\"${30: }\" add=\"${40:new-class}\" remove=\"${50:old-class}\">${60:attribute_value}</attribute>",
+            "</xpath>"
+        ],
+        "description": "Add xpath to attributes"
+    },
+    "Attribute tag": {
+        "prefix": "<attribute>",
+        "body": [
+            "<attribute name=\"${20:class}\" separator=\"${30: }\" add=\"${40:new-class}\" remove=\"${50:old-class}\">${60:attribute_value}</attribute>"
+        ],
+        "description": "Add attribute tag for xpath"
+    },
+    "Script tag": {
+        "prefix": "<script>",
+        "body": [
+            "<script type=\"text/javascript\" src=\"/${1:module_name}/static/src/js/${2:filename}.js\"/>"
+        ],
+        "description": "Add script tag"
+    },
+    "Link tag": {
+        "prefix": "<link>",
+        "body": [
+            "<link rel=\"stylesheet\" type=\"text/scss\" href=\"/${1:module_name}/static/src/scss/${2:filename}.scss\"/>"
+        ],
+        "description": "Add link tag"
+    },
+    "Assets backend": {
+        "prefix": "<assetsBackend>",
+        "body": [
+            "<template id=\"assets_backend\" name=\"${1:Backend Assets}\" inherit_id=\"web.assets_backend\">",
+            "\t<xpath expr=\".\" position=\"inside\">",
+            "\t\t<script type=\"text/javascript\" src=\"/${2:module_name}/static/src/js/${2:module_name}.js\"/>",
+            "\t\t<link rel=\"stylesheet\" type=\"text/scss\" href=\"/${2:module_name}/static/src/scss/${2:module_name}.scss\"/>",
+            "\t</xpath>",
+            "</template>"
+        ],
+        "description": "Add backend assets"
+    },
+    "Assets frontend": {
+        "prefix": "<assetsFrontend>",
+        "body": [
+            "<template id=\"assets_frontend\" name=\"${1:Frontend Assets}\" inherit_id=\"website.assets_frontend\">",
+            "\t<xpath expr=\".\" position=\"inside\">",
+            "\t\t<script type=\"text/javascript\" src=\"/${2:module_name}/static/src/js/${2:module_name}.js\"/>",
+            "\t\t<link rel=\"stylesheet\" type=\"text/scss\" href=\"/${2:module_name}/static/src/scss/${2:module_name}.scss\"/>",
+            "\t</xpath>",
+            "</template>"
+        ],
+        "description": "Add frontend assets"
+    },
+    "t-if": {
+        "prefix": "<t-if>",
+        "body": [
+            "<t t-if=\"${1:condition}\">",
+            "\t$0",
+            "</t>"
+        ],
+        "description": "Add if condition"
+    },
+    "t-if-else": {
+        "prefix": "<t-if>",
+        "body": [
+            "<t t-if=\"${1:condition}\">",
+            "\t$0",
+            "</t>",
+            "<t t-elif=\"${2:condition}\">",
+            "</t>",
+            "<t t-else=\"\">",
+            "</t>"
+        ],
+        "description": "Add if-else condition"
+    },
+    "t-foreach": {
+        "prefix": "<t-foreach>",
+        "body": [
+            "<t t-foreach=\"${1:iteration}\" t-as=\"${2:variable}\">",
+            "\t$0",
+            "</t>"
+        ],
+        "description": "Add foreach loop"
+    },
+    "t-set": {
+        "prefix": "<t-set>",
+        "body": [
+            "<t t-set=\"${1:variable}\" t-value=\"${2:value}\"/>"
+        ],
+        "description": "Add variable"
+    },
+    "t-att": {
+        "prefix": "<t-att>",
+        "body": [
+            "t-att-${1:attribute_name}=\"${0:value}\""
+        ],
+        "description": "Add attribute"
+    },
+    "t-attf": {
+        "prefix": "<t-att>",
+        "body": [
+            "t-attf-${1:attribute_name}=\"${0:value}\""
+        ],
+        "description": "Add attribute with format value"
+    },
+    "t-esc": {
+        "prefix": "<t-esc>",
+        "body": [
+            "<t t-esc=\"${0:expression}\"/>"
+        ],
+        "description": "Evaluate expression"
+    },
+    "t-raw": {
+        "prefix": "<t-raw>",
+        "body": [
+            "<t t-raw=\"${0:variable}\"/>"
+        ],
+        "description": "Evaluate html content"
+    },
+    "t-call": {
+        "prefix": "<t-call>",
+        "body": [
+            "<t t-call=\"${0:template_name}\"/>"
+        ],
+        "description": "Call other template"
+    },
+    "t-debug": {
+        "prefix": "<t-debug>",
+        "body": [
+            "<t t-debug=\"${0:pdb}\"/>"
+        ],
+        "description": "Invokes a debugger"
+    },
+    "t-log": {
+        "prefix": "<t-log>",
+        "body": [
+            "<t t-log=\"${0:expression}\"/>"
+        ],
+        "description": "Log the expression result"
+    }
+}

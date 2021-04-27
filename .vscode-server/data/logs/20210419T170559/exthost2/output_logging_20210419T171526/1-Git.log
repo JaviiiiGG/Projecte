@@ -46,3 +46,4 @@ Warning: Failed to watch ref '/opt/odoo/odoo/.git/refs/remotes/origin/13.0', is 
 > git show --textconv :Moduls/floristeria/__manifest__.py
 > git ls-files --stage -- /opt/odoo/odoo/Moduls/floristeria/__manifest__.py
 > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /opt/odoo/odoo/Moduls/floristeria/__manifest__.py
+> git check-ignore -v -z --stdin

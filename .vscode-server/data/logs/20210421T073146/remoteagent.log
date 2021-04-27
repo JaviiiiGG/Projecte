@@ -1,0 +1,58 @@
+[2021-04-21 07:31:46.747] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-04-21 07:31:46.747] [remoteagent] [info] Extension host agent started.
+[2021-04-21 07:31:47.236] [remoteagent] [info] [127.0.0.1][cd35dbe5][ManagementConnection] New connection established.
+[2021-04-21 07:31:47.405] [remoteagent] [info] [127.0.0.1][b041844f][ExtensionHostConnection] New connection established.
+[2021-04-21 07:31:47.623] [remoteagent] [info] [127.0.0.1][b041844f][ExtensionHostConnection] <15020> Launched Extension Host Process.
+[2021-04-21 07:32:28.933] [remoteagent] [info] [127.0.0.1][cd35dbe5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-04-21 07:32:29.965] [remoteagent] [info] [127.0.0.1][b041844f][ExtensionHostConnection] <15020> Extension Host Process exited with code: 0, signal: null.
+[2021-04-21 07:32:29.966] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-04-21 07:32:47.749] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-04-21 07:32:47.750] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-04-21 07:32:48.206] [remoteagent] [info] [127.0.0.1][1e58299c][ManagementConnection] New connection established.
+[2021-04-21 07:32:48.444] [remoteagent] [info] [127.0.0.1][c1ccbf6c][ExtensionHostConnection] New connection established.
+[2021-04-21 07:32:48.462] [remoteagent] [info] [127.0.0.1][c1ccbf6c][ExtensionHostConnection] <15203> Launched Extension Host Process.
+[2021-04-21 07:37:47.752] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-04-21 09:48:32.046] [remoteagent] [info] [127.0.0.1][74df6e40][ManagementConnection] New connection established.
+[2021-04-21 09:48:32.095] [remoteagent] [info] [127.0.0.1][0b798a56][ExtensionHostConnection] New connection established.
+[2021-04-21 09:48:32.098] [remoteagent] [info] [127.0.0.1][0b798a56][ExtensionHostConnection] <18041> Launched Extension Host Process.
+[2021-04-21 09:54:09.641] [remoteagent] [info] [127.0.0.1][1e58299c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-04-21 12:54:02.047] [remoteagent] [info] [127.0.0.1][c1ccbf6c][ExtensionHostConnection] <15203> Extension Host Process exited with code: 0, signal: null.
+[2021-04-21 12:54:09.642] [remoteagent] [info] [127.0.0.1][1e58299c][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-04-21 13:19:00.560] [remoteagent] [info] [127.0.0.1][74df6e40][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-04-21 14:23:10.511] [remoteagent] [info] [127.0.0.1][74df6e40][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-04-21 14:23:10.512] [remoteagent] [info] [127.0.0.1][e4adf4da][ManagementConnection] New connection established.
+[2021-04-21 14:23:10.629] [remoteagent] [info] [127.0.0.1][0843e476][ExtensionHostConnection] New connection established.
+[2021-04-21 14:23:10.633] [remoteagent] [info] [127.0.0.1][0843e476][ExtensionHostConnection] <72799> Launched Extension Host Process.
+[2021-04-21 14:28:10.512] [remoteagent] [info] [127.0.0.1][74df6e40][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2021-04-21 14:28:11.547] [remoteagent] [info] [127.0.0.1][0b798a56][ExtensionHostConnection] <18041> Extension Host Process exited with code: 0, signal: null.
+[2021-04-21 14:53:33.394] [remoteagent] [info] Installing extension: jigar-patel.odoosnippets
+[2021-04-21 14:53:33.922] [remoteagent] [info] Downloaded extension: jigar-patel.odoosnippets undefined
+[2021-04-21 14:53:33.971] [remoteagent] [info] Extracted extension to /opt/odoo/.vscode-server/extensions/.aa95ee65-c3a0-46fe-9fae-0baa39d8900f: jigar-patel.odoosnippets
+[2021-04-21 14:53:33.975] [remoteagent] [info] Renamed to /opt/odoo/.vscode-server/extensions/jigar-patel.odoosnippets-1.2.0
+[2021-04-21 14:53:33.976] [remoteagent] [info] Installation completed. jigar-patel.odoosnippets
+[2021-04-21 14:53:33.978] [remoteagent] [info] Extensions installed successfully: jigar-patel.odoosnippets
+[2021-04-21 15:16:02.809] [remoteagent] [info] Installing extension: jigar-patel.odoosnippets
+[2021-04-21 15:16:02.813] [remoteagent] [info] Downloaded extension: jigar-patel.odoosnippets undefined
+[2021-04-21 15:16:02.840] [remoteagent] [info] Extracted extension to /opt/odoo/.vscode-server/extensions/.a2b4be63-a0a5-4c52-8c4c-fe2674cdbf32: jigar-patel.odoosnippets
+[2021-04-21 15:16:02.844] [remoteagent] [info] Renamed to /opt/odoo/.vscode-server/extensions/jigar-patel.odoosnippets-1.2.0
+[2021-04-21 15:16:02.845] [remoteagent] [info] Installation completed. jigar-patel.odoosnippets
+[2021-04-21 15:16:02.847] [remoteagent] [info] Extensions installed successfully: jigar-patel.odoosnippets
+[2021-04-21 15:36:39.752] [remoteagent] [info] Installing extension: ecmel.vscode-html-css
+[2021-04-21 15:36:40.332] [remoteagent] [info] Downloaded extension: ecmel.vscode-html-css undefined
+[2021-04-21 15:36:40.354] [remoteagent] [info] Extracted extension to /opt/odoo/.vscode-server/extensions/.dbb6ee7a-dad9-401e-940e-503242d806c7: ecmel.vscode-html-css
+[2021-04-21 15:36:40.358] [remoteagent] [info] Renamed to /opt/odoo/.vscode-server/extensions/ecmel.vscode-html-css-1.10.2
+[2021-04-21 15:36:40.359] [remoteagent] [info] Installation completed. ecmel.vscode-html-css
+[2021-04-21 15:36:40.360] [remoteagent] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2021-04-21 16:00:36.405] [remoteagent] [info] [127.0.0.1][e4adf4da][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-04-21 16:00:37.443] [remoteagent] [info] [127.0.0.1][0843e476][ExtensionHostConnection] <72799> Extension Host Process exited with code: 0, signal: null.
+[2021-04-21 16:00:37.443] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-04-21 16:05:37.445] [remoteagent] [info] Last EH closed, shutting down

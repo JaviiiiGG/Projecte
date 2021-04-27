@@ -1,0 +1,19 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 35137
+
+[17:57:16] Extension host agent started.
+[17:57:16] [127.0.0.1][d4e75c32][ExtensionHostConnection] New connection established.
+[17:57:16] [127.0.0.1][907a23c8][ManagementConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[17:57:16] [127.0.0.1][d4e75c32][ExtensionHostConnection] <343911> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Listing 0 persistent terminals, 0 total terminals
+[17:57:27] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
