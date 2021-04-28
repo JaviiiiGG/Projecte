@@ -1,0 +1,24 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /opt/odoo
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :moduls/floristeria/views/views.xml
+> git ls-files --stage -- /opt/odoo/moduls/floristeria/views/views.xml
+> git cat-file -s c792b02834f9ad8251c09ab0f63e3c5d614678bd
+> git check-ignore -v -z --stdin
+> git show --textconv :moduls/floristeria/views/views.xml
+> git ls-files --stage -- /opt/odoo/moduls/floristeria/views/views.xml
+> git cat-file -s c792b02834f9ad8251c09ab0f63e3c5d614678bd
+> git show --textconv :moduls/floristeria/views/templates.xml
+> git ls-files --stage -- /opt/odoo/moduls/floristeria/views/templates.xml
+> git cat-file -s cea6b39adb5849558ab990ea19bfbdb708ec25ce
+> git show --textconv :moduls/floristeria/views/views.xml
+> git ls-files --stage -- /opt/odoo/moduls/floristeria/views/views.xml
+> git cat-file -s c792b02834f9ad8251c09ab0f63e3c5d614678bd

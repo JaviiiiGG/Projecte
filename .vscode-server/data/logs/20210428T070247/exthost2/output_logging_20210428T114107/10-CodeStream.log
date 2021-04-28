@@ -1,0 +1,60 @@
+[2021-04-28 11:41:07:132] CodeStream v11.0.4-4133 in VS Code (v1.55.2) starting...
+[2021-04-28 11:41:13:051] [1] WebviewController.show
+[2021-04-28 11:41:13:052] [2] WebviewController.ensureWebView
+[2021-04-28 11:41:13:064] [2] WebviewController.ensureWebView completed • 11 ms
+[2021-04-28 11:41:13:065] [3] CodeStreamWebviewSidebar.show
+[2021-04-28 11:41:13:065] [3] CodeStreamWebviewSidebar.show waiting for WebView ready
+[2021-04-28 11:41:13:092] [4] CodeStreamAgentConnection.onApiVersionCompatibilityChanged
+[2021-04-28 11:41:13:093] [5] WebviewController.onApiVersionChanged
+[2021-04-28 11:41:13:096] [5] WebviewController.onApiVersionChanged completed • 3 ms
+[2021-04-28 11:41:13:096] [4] CodeStreamAgentConnection.onApiVersionCompatibilityChanged completed • 3 ms
+[2021-04-28 11:41:16:232] resolveWebviewView starting — {}
+[2021-04-28 11:41:16:683] [6] CodeStreamWebviewSidebar.triggerIpc
+[2021-04-28 11:41:16:683] [6] CodeStreamWebviewSidebar.triggerIpc waiting for WebView ready
+[2021-04-28 11:41:20:802] WebviewPanel: Completed posting webview/editors/didChangeVisible to the webview
+[2021-04-28 11:41:20:802] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:20:802] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:20:802] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:20:802] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:20:802] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:20:837] WebviewPanel: Completed posting webview/editor/didChangeSelection to the webview
+[2021-04-28 11:41:20:881] WebviewPanel: Completed posting webview/editor/didChangeActive to the webview
+[2021-04-28 11:41:21:087] WebviewPanel: Completed posting webview/editors/didChangeVisible to the webview
+[2021-04-28 11:41:22:137] WebviewPanel: Completed posting webview/editor/didChangeActive to the webview
+[2021-04-28 11:41:24:067] Webview: Received message host/bootstrap(wv:1:O2qNQr5aR16W_3dVrOdNCQ) from the webview
+[2021-04-28 11:41:24:067] WebviewPanel: Bootstrapping webview... — SignedIn=false
+[2021-04-28 11:41:24:465] Webview: Received message host/didInitialize from the webview
+[2021-04-28 11:41:24:466] Webview: Received message codestream/verifyConnectivity(wv:2:J2UiMUJ4Rm-6sXERIpADCA) from the webview
+[2021-04-28 11:41:24:466] AgentConnection.sendRequest(codestream/verifyConnectivity)
+[2021-04-28 11:41:24:469] WebviewPanel: Completed posting response(wv:1:O2qNQr5aR16W_3dVrOdNCQ) to the webview
+[2021-04-28 11:41:24:469] [3] CodeStreamWebviewSidebar.show waiting for WebView complete. cancelled=false
+[2021-04-28 11:41:24:469] [6] CodeStreamWebviewSidebar.triggerIpc waiting for WebView complete. cancelled=false
+[2021-04-28 11:41:24:469] [3] CodeStreamWebviewSidebar.show completed • 11404 ms
+[2021-04-28 11:41:24:469] [6] CodeStreamWebviewSidebar.triggerIpc completed • 7786 ms
+[2021-04-28 11:41:24:470] resolveWebviewView completed
+[2021-04-28 11:41:24:470] [1] WebviewController.show completed • 11418 ms
+[2021-04-28 11:41:24:470] CodeStream v11.0.4-4133 started • 17395 ms
+[2021-04-28 11:41:24:495] Webview: Received message codestream/scm/workspace/autojoin(wv:3:9vjuaEAzReuSb4xFfH97PA) from the webview
+[2021-04-28 11:41:24:496] AgentConnection.sendRequest(codestream/scm/workspace/autojoin)
+[2021-04-28 11:41:24:614] WebviewPanel: Completed posting webview/editors/didChangeVisible to the webview
+[2021-04-28 11:41:24:614] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:24:614] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:24:614] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:24:660] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:24:660] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:27:002] WebviewPanel: Completed posting webview/editor/didChangeSelection to the webview
+[2021-04-28 11:41:27:056] WebviewPanel: Completed posting response(wv:2:J2UiMUJ4Rm-6sXERIpADCA) to the webview
+[2021-04-28 11:41:27:056] WebviewPanel: Completed posting response(wv:3:9vjuaEAzReuSb4xFfH97PA) to the webview
+[2021-04-28 11:41:27:573] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:27:573] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:35:128] WebviewPanel: Completed posting webview/editors/didChangeVisible to the webview
+[2021-04-28 11:41:35:190] WebviewPanel: Completed posting webview/editor/didChangeActive to the webview
+[2021-04-28 11:41:40:689] WebviewPanel: Completed posting webview/editors/didChangeVisible to the webview
+[2021-04-28 11:41:40:689] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:40:689] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:40:689] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:40:728] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:40:728] WebviewPanel: Completed posting webview/editor/didChangeVisibleRanges to the webview
+[2021-04-28 11:41:40:910] WebviewPanel: Completed posting webview/editor/didChangeSelection to the webview
+[2021-04-28 11:42:26:199] WebviewPanel: Completed posting webview/editors/didChangeVisible to the webview
+[2021-04-28 11:42:26:973] WebviewPanel: Completed posting webview/editor/didChangeActive to the webview

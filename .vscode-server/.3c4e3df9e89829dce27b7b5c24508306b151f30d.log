@@ -16,3 +16,402 @@ bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
 [IPC Library: Pty Host]  INFO Listing 0 persistent terminals, 0 total terminals
 [07:02:48] [127.0.0.1][e6223784][ExtensionHostConnection] <349976> Launched Extension Host Process.
+[11:35:57] Installing extension: sirtori.indenticator
+[11:35:58] Downloaded extension: sirtori.indenticator undefined
+[11:35:58] Extracted extension to /opt/odoo/.vscode-server/extensions/.a6bbbc13-c9ec-4c00-a1b2-bb90bcfd2974: sirtori.indenticator
+[11:35:58] Renamed to /opt/odoo/.vscode-server/extensions/sirtori.indenticator-0.7.0
+[11:35:58] Installation completed. sirtori.indenticator
+[11:35:58] Extensions installed successfully: sirtori.indenticator
+[11:37:24] Uninstalling extension: sirtori.indenticator
+[11:37:24] Successfully uninstalled extension: sirtori.indenticator
+[11:37:34] [127.0.0.1][474e5eac][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:37:35] [127.0.0.1][e6223784][ExtensionHostConnection] <349976> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[11:37:35] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[11:37:42] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[11:37:42] Cancelling previous shutdown timeout
+[11:37:43] [127.0.0.1][ccd18bf6][ManagementConnection] New connection established.
+[11:37:43] [127.0.0.1][9ed45d10][ExtensionHostConnection] New connection established.
+[11:37:43] [127.0.0.1][9ed45d10][ExtensionHostConnection] <412065> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Listing 1 persistent terminals, 1 total terminals
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 13717 chars and 3 size events
+[11:40:42] Installing extension: jabacchetta.vscode-essentials
+[11:40:42] Downloaded extension: jabacchetta.vscode-essentials undefined
+[11:40:42] Extracted extension to /opt/odoo/.vscode-server/extensions/.cc81a3a8-2224-4b4d-a682-c051bf357d13: jabacchetta.vscode-essentials
+[11:40:42] Renamed to /opt/odoo/.vscode-server/extensions/jabacchetta.vscode-essentials-1.5.0
+[11:40:42] Installation completed. jabacchetta.vscode-essentials
+[11:40:42] Installing extension: visualstudioexptteam.vscodeintellicode
+[11:40:42] Installing extension: eamodio.gitlens
+[11:40:42] Installing extension: formulahendry.code-runner
+[11:40:42] Installing extension: ms-vsliveshare.vsliveshare
+[11:40:42] Installing extension: streetsidesoftware.code-spell-checker
+[11:40:42] Installing extension: shan.code-settings-sync
+[11:40:42] Installing extension: github.vscode-pull-request-github
+[11:40:42] Installing extension: mikestead.dotenv
+[11:40:42] Installing extension: alefragnani.project-manager
+[11:40:42] Installing extension: ms-vsliveshare.vsliveshare-audio
+[11:40:42] Installing extension: alefragnani.bookmarks
+[11:40:42] Installing extension: mhutchie.git-graph
+[11:40:42] Installing extension: johnpapa.vscode-peacock
+[11:40:42] Installing extension: gruntfuggly.todo-tree
+[11:40:42] Installing extension: codezombiech.gitignore
+[11:40:42] Installing extension: tomoki1207.pdf
+[11:40:42] Installing extension: karigari.chat
+[11:40:42] Installing extension: pnp.polacode
+[11:40:42] Installing extension: ibm.output-colorizer
+[11:40:42] Installing extension: xyz.local-history
+[11:40:42] Installing extension: atishay-jain.all-autocomplete
+[11:40:42] Installing extension: nhoizey.gremlins
+[11:40:42] Installing extension: slevesque.vscode-multiclip
+[11:40:42] Installing extension: stkb.rewrap
+[11:40:42] Installing extension: codestream.codestream
+[11:40:42] Installing extension: metaseed.metago
+[11:40:42] Installing extension: iocave.monkey-patch
+[11:40:42] Installing extension: iocave.customize-ui
+[11:40:42] Installing extension: lostintangent.vsls-whiteboard
+[11:40:42] Installing extension: vsls-contrib.gistfs
+[11:40:42] Installing extension: redvanworkshop.explorer-exclude-vscode-extension
+[11:40:42] Installing extension: lacroixdavid1.vscode-format-context-menu
+[11:40:42] Installing extension: micnil.vscode-checkpoints
+[11:40:42] Installing extension: jkjustjoshing.vscode-text-pastry
+[11:40:42] Installing extension: jasonlhy.hungry-delete
+[11:40:42] Installing extension: inu1255.easy-snippet
+[11:40:42] Installing extension: hoovercj.vscode-settings-cycler
+[11:40:42] Installing extension: svipas.control-snippets
+[11:40:42] Installing extension: ctf0.macros
+[11:40:42] Installing extension: jakearl.search-editor-apply-changes
+[11:40:46] Downloaded extension: mikestead.dotenv undefined
+[11:40:46] Extracted extension to /opt/odoo/.vscode-server/extensions/.5af2405d-03da-4205-819c-982214783b03: mikestead.dotenv
+[11:40:46] Renamed to /opt/odoo/.vscode-server/extensions/mikestead.dotenv-1.0.1
+[11:40:46] Installation completed. mikestead.dotenv
+[11:40:46] Extensions installed successfully: mikestead.dotenv
+[11:40:46] Downloaded extension: mhutchie.git-graph undefined
+[11:40:47] Downloaded extension: github.vscode-pull-request-github undefined
+[11:40:47] Downloaded extension: johnpapa.vscode-peacock undefined
+[11:40:47] Downloaded extension: gruntfuggly.todo-tree undefined
+[11:40:47] Downloaded extension: shan.code-settings-sync undefined
+[11:40:47] Extracted extension to /opt/odoo/.vscode-server/extensions/.57e9cb65-8d57-4898-b34e-9b80be347a85: johnpapa.vscode-peacock
+[11:40:47] Renamed to /opt/odoo/.vscode-server/extensions/johnpapa.vscode-peacock-3.9.1
+[11:40:47] Installation completed. johnpapa.vscode-peacock
+[11:40:47] Extensions installed successfully: johnpapa.vscode-peacock
+[11:40:47] Downloaded extension: ibm.output-colorizer undefined
+[11:40:47] Downloaded extension: karigari.chat undefined
+[11:40:47] Downloaded extension: alefragnani.project-manager undefined
+[11:40:47] Downloaded extension: pnp.polacode undefined
+[11:40:47] Extracted extension to /opt/odoo/.vscode-server/extensions/.9eb90d8c-31db-4a91-ae4f-db99fca63dab: mhutchie.git-graph
+[11:40:47] Downloaded extension: visualstudioexptteam.vscodeintellicode undefined
+[11:40:47] Downloaded extension: xyz.local-history undefined
+[11:40:47] Renamed to /opt/odoo/.vscode-server/extensions/mhutchie.git-graph-1.30.0
+[11:40:47] Installation completed. mhutchie.git-graph
+[11:40:47] Downloaded extension: formulahendry.code-runner undefined
+[11:40:47] Extensions installed successfully: mhutchie.git-graph
+[11:40:47] Downloaded extension: nhoizey.gremlins undefined
+[11:40:47] Downloaded extension: atishay-jain.all-autocomplete undefined
+[11:40:47] Extracted extension to /opt/odoo/.vscode-server/extensions/.35450249-42c4-4477-927a-f8a14097df77: github.vscode-pull-request-github
+[11:40:48] Extracted extension to /opt/odoo/.vscode-server/extensions/.5cc6fb3c-cf14-4092-9599-270b9501491b: pnp.polacode
+[11:40:48] Renamed to /opt/odoo/.vscode-server/extensions/github.vscode-pull-request-github-0.25.1
+[11:40:48] Downloaded extension: tomoki1207.pdf undefined
+[11:40:48] Downloaded extension: slevesque.vscode-multiclip undefined
+[11:40:48] Installation completed. github.vscode-pull-request-github
+[11:40:48] Downloaded extension: eamodio.gitlens undefined
+[11:40:48] Renamed to /opt/odoo/.vscode-server/extensions/pnp.polacode-0.3.4
+[11:40:48] Downloaded extension: stkb.rewrap undefined
+[11:40:48] Installation completed. pnp.polacode
+[11:40:48] Extensions installed successfully: github.vscode-pull-request-github
+[11:40:48] Extensions installed successfully: pnp.polacode
+[11:40:48] Extracted extension to /opt/odoo/.vscode-server/extensions/.d3bc263f-5c6c-40f9-8be8-faf4bfa740f6: ibm.output-colorizer
+[11:40:48] Renamed to /opt/odoo/.vscode-server/extensions/ibm.output-colorizer-0.1.2
+[11:40:48] Installation completed. ibm.output-colorizer
+[11:40:48] Downloaded extension: iocave.monkey-patch undefined
+[11:40:48] Downloaded extension: iocave.customize-ui undefined
+[11:40:48] Extensions installed successfully: ibm.output-colorizer
+[11:40:48] Extracted extension to /opt/odoo/.vscode-server/extensions/.63fd97fa-63e3-4dbf-89df-6a4adf07dd86: slevesque.vscode-multiclip
+[11:40:48] Downloaded extension: metaseed.metago undefined
+[11:40:48] Downloaded extension: lostintangent.vsls-whiteboard undefined
+[11:40:48] Renamed to /opt/odoo/.vscode-server/extensions/slevesque.vscode-multiclip-0.1.5
+[11:40:48] Downloaded extension: redvanworkshop.explorer-exclude-vscode-extension undefined
+[11:40:48] Installation completed. slevesque.vscode-multiclip
+[11:40:48] Extracted extension to /opt/odoo/.vscode-server/extensions/.6061d7d9-3e85-427d-83ca-a3c448a71594: atishay-jain.all-autocomplete
+[11:40:49] Extensions installed successfully: slevesque.vscode-multiclip
+[11:40:49] Renamed to /opt/odoo/.vscode-server/extensions/atishay-jain.all-autocomplete-0.0.23
+[11:40:49] Downloaded extension: jkjustjoshing.vscode-text-pastry undefined
+[11:40:49] Downloaded extension: vsls-contrib.gistfs undefined
+[11:40:49] Installation completed. atishay-jain.all-autocomplete
+[11:40:49] Downloaded extension: lacroixdavid1.vscode-format-context-menu undefined
+[11:40:49] Downloaded extension: hoovercj.vscode-settings-cycler undefined
+[11:40:49] Extensions installed successfully: atishay-jain.all-autocomplete
+[11:40:49] Downloaded extension: svipas.control-snippets undefined
+[11:40:50] Downloaded extension: micnil.vscode-checkpoints undefined
+[11:40:50] Downloaded extension: ctf0.macros undefined
+[11:40:50] Extracted extension to /opt/odoo/.vscode-server/extensions/.f0d4210e-9658-4961-a4a6-fa17cc6bc223: gruntfuggly.todo-tree
+[11:40:50] Renamed to /opt/odoo/.vscode-server/extensions/gruntfuggly.todo-tree-0.0.213
+[11:40:50] Installation completed. gruntfuggly.todo-tree
+[11:40:50] Extensions installed successfully: gruntfuggly.todo-tree
+[11:40:50] Extracted extension to /opt/odoo/.vscode-server/extensions/.dba50b5c-f899-4c0c-897f-b6719c656aa5: iocave.customize-ui
+[11:40:50] Renamed to /opt/odoo/.vscode-server/extensions/iocave.customize-ui-0.1.53
+[11:40:50] Installation completed. iocave.customize-ui
+[11:40:51] Extracted extension to /opt/odoo/.vscode-server/extensions/.5eac70dc-0bff-4334-b0b5-ff25d3132bf7: svipas.control-snippets
+[11:40:51] Extracted extension to /opt/odoo/.vscode-server/extensions/.ab049ef7-e8ce-4218-a8e0-42c3ae523e56: ctf0.macros
+[11:40:51] Extracted extension to /opt/odoo/.vscode-server/extensions/.e0b65f59-8d3c-451c-b102-df0a2c6b0880: nhoizey.gremlins
+[11:40:51] Renamed to /opt/odoo/.vscode-server/extensions/svipas.control-snippets-1.9.1
+[11:40:51] Renamed to /opt/odoo/.vscode-server/extensions/ctf0.macros-0.0.4
+[11:40:51] Renamed to /opt/odoo/.vscode-server/extensions/nhoizey.gremlins-0.26.0
+[11:40:51] Installation completed. svipas.control-snippets
+[11:40:51] Installation completed. ctf0.macros
+[11:40:51] Downloaded extension: jakearl.search-editor-apply-changes undefined
+[11:40:51] Installation completed. nhoizey.gremlins
+[11:40:51] Extensions installed successfully: svipas.control-snippets
+[11:40:51] Extensions installed successfully: ctf0.macros
+[11:40:51] Downloaded extension: codezombiech.gitignore undefined
+[11:40:51] Extensions installed successfully: nhoizey.gremlins
+[11:40:51] Downloaded extension: inu1255.easy-snippet undefined
+[11:40:52] Downloaded extension: ms-vsliveshare.vsliveshare-audio undefined
+[11:40:52] Downloaded extension: streetsidesoftware.code-spell-checker undefined
+[11:40:52] Extracted extension to /opt/odoo/.vscode-server/extensions/.07360d27-95f5-41d5-afec-f1055a49d915: alefragnani.project-manager
+[11:40:52] Extracted extension to /opt/odoo/.vscode-server/extensions/.6ad33dc5-b5e7-45c0-9a8e-46ff7495e894: iocave.monkey-patch
+[11:40:52] Renamed to /opt/odoo/.vscode-server/extensions/alefragnani.project-manager-12.1.0
+[11:40:52] Downloaded extension: codestream.codestream undefined
+[11:40:52] Renamed to /opt/odoo/.vscode-server/extensions/iocave.monkey-patch-0.1.13
+[11:40:52] Downloaded extension: jasonlhy.hungry-delete undefined
+[11:40:52] Installation completed. alefragnani.project-manager
+[11:40:53] Installation completed. iocave.monkey-patch
+[11:40:53] Extensions installed successfully: alefragnani.project-manager
+[11:40:53] Extensions installed successfully: iocave.monkey-patch
+[11:40:53] Extensions installed successfully: iocave.customize-ui
+[11:40:53] Downloaded extension: alefragnani.bookmarks undefined
+[11:40:53] Extracted extension to /opt/odoo/.vscode-server/extensions/.7d06b192-1c7a-4a88-84c7-571ea8bb7528: lacroixdavid1.vscode-format-context-menu
+[11:40:53] Renamed to /opt/odoo/.vscode-server/extensions/lacroixdavid1.vscode-format-context-menu-1.0.4
+[11:40:53] Installation completed. lacroixdavid1.vscode-format-context-menu
+[11:40:53] Extracted extension to /opt/odoo/.vscode-server/extensions/.ed5c61c5-1e4e-4830-969a-b5ba5d699914: shan.code-settings-sync
+[11:40:53] Extensions installed successfully: lacroixdavid1.vscode-format-context-menu
+[11:40:53] Renamed to /opt/odoo/.vscode-server/extensions/shan.code-settings-sync-3.4.3
+[11:40:53] Installation completed. shan.code-settings-sync
+[11:40:53] Extensions installed successfully: shan.code-settings-sync
+[11:40:54] Extracted extension to /opt/odoo/.vscode-server/extensions/.e04fb58a-9abb-4ffc-be74-669f4885df3e: lostintangent.vsls-whiteboard
+[11:40:54] Downloaded extension: ms-vsliveshare.vsliveshare undefined
+[11:40:54] Extracted extension to /opt/odoo/.vscode-server/extensions/.41295539-aa00-4761-897a-5cac6e30d35f: hoovercj.vscode-settings-cycler
+[11:40:54] Renamed to /opt/odoo/.vscode-server/extensions/lostintangent.vsls-whiteboard-0.0.12
+[11:40:54] Installation completed. lostintangent.vsls-whiteboard
+[11:40:54] Renamed to /opt/odoo/.vscode-server/extensions/hoovercj.vscode-settings-cycler-1.0.1
+[11:40:54] Installation completed. hoovercj.vscode-settings-cycler
+[11:40:54] Extensions installed successfully: hoovercj.vscode-settings-cycler
+[11:40:54] Extracted extension to /opt/odoo/.vscode-server/extensions/.4393b8fc-0eb8-4814-9d4b-d6eeac4fab7e: micnil.vscode-checkpoints
+[11:40:54] Renamed to /opt/odoo/.vscode-server/extensions/micnil.vscode-checkpoints-1.3.1
+[11:40:54] Installation completed. micnil.vscode-checkpoints
+[11:40:54] Extensions installed successfully: micnil.vscode-checkpoints
+[11:40:55] Extracted extension to /opt/odoo/.vscode-server/extensions/.f4ce86ad-84aa-40be-86a4-c5f1c3fbd9d5: xyz.local-history
+[11:40:55] Renamed to /opt/odoo/.vscode-server/extensions/xyz.local-history-1.8.1
+[11:40:55] Installation completed. xyz.local-history
+[11:40:55] Extensions installed successfully: xyz.local-history
+[11:40:55] Extracted extension to /opt/odoo/.vscode-server/extensions/.5b96cace-6775-4773-a816-11efbf66ed71: karigari.chat
+[11:40:55] Extracted extension to /opt/odoo/.vscode-server/extensions/.941dba30-d48e-4fad-b558-3dfc7f9c10e1: redvanworkshop.explorer-exclude-vscode-extension
+[11:40:55] Renamed to /opt/odoo/.vscode-server/extensions/karigari.chat-0.35.0
+[11:40:56] Renamed to /opt/odoo/.vscode-server/extensions/redvanworkshop.explorer-exclude-vscode-extension-1.2.0
+[11:40:56] Installation completed. karigari.chat
+[11:40:56] Installation completed. redvanworkshop.explorer-exclude-vscode-extension
+[11:40:56] Extensions installed successfully: karigari.chat
+[11:40:56] Extensions installed successfully: redvanworkshop.explorer-exclude-vscode-extension
+[11:40:56] Extracted extension to /opt/odoo/.vscode-server/extensions/.8dca30bc-4078-41bd-8b4d-e65cf21327ca: jkjustjoshing.vscode-text-pastry
+[11:40:56] Renamed to /opt/odoo/.vscode-server/extensions/jkjustjoshing.vscode-text-pastry-1.2.0
+[11:40:56] Installation completed. jkjustjoshing.vscode-text-pastry
+[11:40:56] Extensions installed successfully: jkjustjoshing.vscode-text-pastry
+[11:40:57] Extracted extension to /opt/odoo/.vscode-server/extensions/.741f286d-f583-4e33-8f85-68938285d8d4: metaseed.metago
+[11:40:57] Renamed to /opt/odoo/.vscode-server/extensions/metaseed.metago-4.2.0
+[11:40:57] Installation completed. metaseed.metago
+[11:40:57] Extracted extension to /opt/odoo/.vscode-server/extensions/.9d136454-294b-4175-a35b-067aaaccf1a5: stkb.rewrap
+[11:40:58] Renamed to /opt/odoo/.vscode-server/extensions/stkb.rewrap-1.14.0
+[11:40:58] Installation completed. stkb.rewrap
+[11:40:58] Extensions installed successfully: stkb.rewrap
+[11:40:58] Extracted extension to /opt/odoo/.vscode-server/extensions/.540f37f2-d757-4e5f-a3de-b908e214f29b: inu1255.easy-snippet
+[11:40:58] Renamed to /opt/odoo/.vscode-server/extensions/inu1255.easy-snippet-0.6.3
+[11:40:58] Installation completed. inu1255.easy-snippet
+[11:40:58] Extensions installed successfully: inu1255.easy-snippet
+[11:40:58] Installing extension: metaseed.metajump
+[11:40:58] Installing extension: metaseed.metaword
+[11:40:59] Extracted extension to /opt/odoo/.vscode-server/extensions/.84e2907d-4037-4ce7-b16a-d0ed67a282c2: formulahendry.code-runner
+[11:40:59] Renamed to /opt/odoo/.vscode-server/extensions/formulahendry.code-runner-0.11.3
+[11:40:59] Installation completed. formulahendry.code-runner
+[11:40:59] Extensions installed successfully: formulahendry.code-runner
+[11:40:59] Extracted extension to /opt/odoo/.vscode-server/extensions/.dab31494-3339-4bea-98a5-c217cbeb302f: alefragnani.bookmarks
+[11:40:59] Extracted extension to /opt/odoo/.vscode-server/extensions/.06232b27-315b-4f18-8d32-181356106323: jasonlhy.hungry-delete
+[11:40:59] Renamed to /opt/odoo/.vscode-server/extensions/alefragnani.bookmarks-13.0.4
+[11:40:59] Installation completed. alefragnani.bookmarks
+[11:40:59] Extensions installed successfully: alefragnani.bookmarks
+[11:40:59] Renamed to /opt/odoo/.vscode-server/extensions/jasonlhy.hungry-delete-1.6.0
+[11:40:59] Downloaded extension: metaseed.metaword undefined
+[11:40:59] Installation completed. jasonlhy.hungry-delete
+[11:41:00] Extensions installed successfully: jasonlhy.hungry-delete
+[11:41:00] Extracted extension to /opt/odoo/.vscode-server/extensions/.b443519c-8547-4d20-bcde-5bcf3330ac85: metaseed.metaword
+[11:41:00] Renamed to /opt/odoo/.vscode-server/extensions/metaseed.metaword-1.2.1
+[11:41:00] Installation completed. metaseed.metaword
+[11:41:00] Extensions installed successfully: metaseed.metaword
+[11:41:00] Downloaded extension: metaseed.metajump undefined
+[11:41:01] Extracted extension to /opt/odoo/.vscode-server/extensions/.24930831-7618-4035-adb0-ccebfd8a7c59: jakearl.search-editor-apply-changes
+[11:41:01] Renamed to /opt/odoo/.vscode-server/extensions/jakearl.search-editor-apply-changes-0.1.1
+[11:41:01] Installation completed. jakearl.search-editor-apply-changes
+[11:41:01] Extensions installed successfully: jakearl.search-editor-apply-changes
+[11:41:03] Extracted extension to /opt/odoo/.vscode-server/extensions/.cb131fb2-59fb-4625-823f-96656f4a71bf: eamodio.gitlens
+[11:41:03] Renamed to /opt/odoo/.vscode-server/extensions/eamodio.gitlens-11.4.1
+[11:41:03] Installation completed. eamodio.gitlens
+[11:41:03] Extensions installed successfully: eamodio.gitlens
+[11:41:05] Extracted extension to /opt/odoo/.vscode-server/extensions/.c5b5e4eb-8d0a-47b6-9ad7-47c403bf9a1f: visualstudioexptteam.vscodeintellicode
+[11:41:05] Renamed to /opt/odoo/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.12
+[11:41:05] Extracted extension to /opt/odoo/.vscode-server/extensions/.c34ab435-6944-435d-aa08-8e0e2ebf5f91: codestream.codestream
+[11:41:05] Installation completed. visualstudioexptteam.vscodeintellicode
+[11:41:05] Extensions installed successfully: visualstudioexptteam.vscodeintellicode
+[11:41:05] Renamed to /opt/odoo/.vscode-server/extensions/codestream.codestream-11.0.4
+[11:41:05] Installation completed. codestream.codestream
+[11:41:05] Extensions installed successfully: codestream.codestream
+[11:41:06] Extracted extension to /opt/odoo/.vscode-server/extensions/.e996844e-9a79-4484-96d6-cf93606460c0: tomoki1207.pdf
+[11:41:06] Renamed to /opt/odoo/.vscode-server/extensions/tomoki1207.pdf-1.1.0
+[11:41:06] Installation completed. tomoki1207.pdf
+[11:41:06] Extensions installed successfully: tomoki1207.pdf
+[11:41:06] Extracted extension to /opt/odoo/.vscode-server/extensions/.c5d834cf-bd22-4a71-94f4-9cd35b098fc6: metaseed.metajump
+[11:41:06] Renamed to /opt/odoo/.vscode-server/extensions/metaseed.metajump-1.1.1
+[11:41:06] Installation completed. metaseed.metajump
+[11:41:06] Extensions installed successfully: metaseed.metajump
+[11:41:06] Extensions installed successfully: metaseed.metago
+[11:41:11] Extracted extension to /opt/odoo/.vscode-server/extensions/.9199cbd5-19e9-4fc4-8998-341e891e8da7: ms-vsliveshare.vsliveshare
+[11:41:11] Renamed to /opt/odoo/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.4131
+[11:41:11] Installation completed. ms-vsliveshare.vsliveshare
+[11:41:11] Extensions installed successfully: ms-vsliveshare.vsliveshare
+[11:41:11] Extensions installed successfully: lostintangent.vsls-whiteboard
+[11:41:12] Extracted extension to /opt/odoo/.vscode-server/extensions/.a9d6c952-0135-4095-b4e9-c3285e72b790: codezombiech.gitignore
+[11:41:12] Renamed to /opt/odoo/.vscode-server/extensions/codezombiech.gitignore-0.6.0
+[11:41:12] Installation completed. codezombiech.gitignore
+[11:41:12] Extensions installed successfully: codezombiech.gitignore
+[11:41:16] Extracted extension to /opt/odoo/.vscode-server/extensions/.8a2a0009-d360-42b8-bec4-a07730671d5e: streetsidesoftware.code-spell-checker
+[11:41:16] Renamed to /opt/odoo/.vscode-server/extensions/streetsidesoftware.code-spell-checker-1.10.2
+[11:41:16] Installation completed. streetsidesoftware.code-spell-checker
+[11:41:16] Extensions installed successfully: streetsidesoftware.code-spell-checker
+[11:41:16] Extracted extension to /opt/odoo/.vscode-server/extensions/.38e25c24-11e8-4bff-9bac-112b1d6063ce: vsls-contrib.gistfs
+[11:41:16] Renamed to /opt/odoo/.vscode-server/extensions/vsls-contrib.gistfs-0.2.8
+[11:41:16] Installation completed. vsls-contrib.gistfs
+[11:41:16] Extensions installed successfully: vsls-contrib.gistfs
+[11:41:17] Extracted extension to /opt/odoo/.vscode-server/extensions/.eb1cde34-e338-4d1f-8622-8ddb9aebf79a: ms-vsliveshare.vsliveshare-audio
+[11:41:17] Renamed to /opt/odoo/.vscode-server/extensions/ms-vsliveshare.vsliveshare-audio-0.1.91
+[11:41:17] Installation completed. ms-vsliveshare.vsliveshare-audio
+[11:41:18] Extensions installed successfully: ms-vsliveshare.vsliveshare-audio
+[11:41:18] Extensions installed successfully: jabacchetta.vscode-essentials
+[11:42:36] Uninstalling extension: jabacchetta.vscode-essentials
+[11:42:36] Uninstalling extension: alefragnani.bookmarks
+[11:42:36] Uninstalling extension: alefragnani.project-manager
+[11:42:36] Uninstalling extension: atishay-jain.all-autocomplete
+[11:42:36] Uninstalling extension: codestream.codestream
+[11:42:36] Uninstalling extension: codezombiech.gitignore
+[11:42:36] Uninstalling extension: ctf0.macros
+[11:42:36] Uninstalling extension: eamodio.gitlens
+[11:42:36] Uninstalling extension: formulahendry.code-runner
+[11:42:36] Uninstalling extension: github.vscode-pull-request-github
+[11:42:36] Uninstalling extension: gruntfuggly.todo-tree
+[11:42:36] Uninstalling extension: hoovercj.vscode-settings-cycler
+[11:42:36] Uninstalling extension: ibm.output-colorizer
+[11:42:36] Uninstalling extension: inu1255.easy-snippet
+[11:42:36] Uninstalling extension: iocave.customize-ui
+[11:42:36] Uninstalling extension: iocave.monkey-patch
+[11:42:36] Uninstalling extension: jakearl.search-editor-apply-changes
+[11:42:36] Uninstalling extension: jasonlhy.hungry-delete
+[11:42:36] Uninstalling extension: jkjustjoshing.vscode-text-pastry
+[11:42:36] Uninstalling extension: johnpapa.vscode-peacock
+[11:42:36] Uninstalling extension: karigari.chat
+[11:42:36] Uninstalling extension: lacroixdavid1.vscode-format-context-menu
+[11:42:36] Uninstalling extension: lostintangent.vsls-whiteboard
+[11:42:36] Uninstalling extension: metaseed.metago
+[11:42:36] Uninstalling extension: mhutchie.git-graph
+[11:42:36] Uninstalling extension: micnil.vscode-checkpoints
+[11:42:36] Uninstalling extension: mikestead.dotenv
+[11:42:36] Uninstalling extension: ms-vsliveshare.vsliveshare
+[11:42:36] Uninstalling extension: ms-vsliveshare.vsliveshare-audio
+[11:42:36] Uninstalling extension: nhoizey.gremlins
+[11:42:36] Uninstalling extension: pnp.polacode
+[11:42:36] Uninstalling extension: redvanworkshop.explorer-exclude-vscode-extension
+[11:42:36] Uninstalling extension: shan.code-settings-sync
+[11:42:36] Uninstalling extension: slevesque.vscode-multiclip
+[11:42:36] Uninstalling extension: stkb.rewrap
+[11:42:36] Uninstalling extension: streetsidesoftware.code-spell-checker
+[11:42:36] Uninstalling extension: svipas.control-snippets
+[11:42:36] Uninstalling extension: tomoki1207.pdf
+[11:42:36] Uninstalling extension: visualstudioexptteam.vscodeintellicode
+[11:42:36] Uninstalling extension: vsls-contrib.gistfs
+[11:42:36] Uninstalling extension: xyz.local-history
+[11:42:36] Uninstalling extension: metaseed.metajump
+[11:42:36] Uninstalling extension: metaseed.metaword
+[11:42:40] Successfully uninstalled extension: alefragnani.bookmarks
+[11:42:40] Successfully uninstalled extension: alefragnani.project-manager
+[11:42:40] Successfully uninstalled extension: atishay-jain.all-autocomplete
+[11:42:40] Successfully uninstalled extension: codestream.codestream
+[11:42:40] Successfully uninstalled extension: codezombiech.gitignore
+[11:42:40] Successfully uninstalled extension: ctf0.macros
+[11:42:40] Successfully uninstalled extension: eamodio.gitlens
+[11:42:40] Successfully uninstalled extension: formulahendry.code-runner
+[11:42:40] Successfully uninstalled extension: github.vscode-pull-request-github
+[11:42:40] Successfully uninstalled extension: gruntfuggly.todo-tree
+[11:42:40] Successfully uninstalled extension: hoovercj.vscode-settings-cycler
+[11:42:40] Successfully uninstalled extension: ibm.output-colorizer
+[11:42:40] Successfully uninstalled extension: inu1255.easy-snippet
+[11:42:40] Successfully uninstalled extension: iocave.customize-ui
+[11:42:40] Successfully uninstalled extension: iocave.monkey-patch
+[11:42:41] Successfully uninstalled extension: jakearl.search-editor-apply-changes
+[11:42:41] Successfully uninstalled extension: jasonlhy.hungry-delete
+[11:42:41] Successfully uninstalled extension: jkjustjoshing.vscode-text-pastry
+[11:42:41] Successfully uninstalled extension: johnpapa.vscode-peacock
+[11:42:41] Successfully uninstalled extension: karigari.chat
+[11:42:41] Successfully uninstalled extension: lacroixdavid1.vscode-format-context-menu
+[11:42:41] Successfully uninstalled extension: lostintangent.vsls-whiteboard
+[11:42:41] Successfully uninstalled extension: metaseed.metago
+[11:42:41] Successfully uninstalled extension: mhutchie.git-graph
+[11:42:41] Successfully uninstalled extension: micnil.vscode-checkpoints
+[11:42:41] Successfully uninstalled extension: mikestead.dotenv
+[11:42:41] Successfully uninstalled extension: ms-vsliveshare.vsliveshare
+[11:42:41] Successfully uninstalled extension: ms-vsliveshare.vsliveshare-audio
+[11:42:41] Successfully uninstalled extension: nhoizey.gremlins
+[11:42:41] Successfully uninstalled extension: pnp.polacode
+[11:42:41] Successfully uninstalled extension: redvanworkshop.explorer-exclude-vscode-extension
+[11:42:41] Successfully uninstalled extension: shan.code-settings-sync
+[11:42:41] Successfully uninstalled extension: slevesque.vscode-multiclip
+[11:42:41] Successfully uninstalled extension: stkb.rewrap
+[11:42:41] Successfully uninstalled extension: streetsidesoftware.code-spell-checker
+[11:42:41] Successfully uninstalled extension: svipas.control-snippets
+[11:42:41] Successfully uninstalled extension: tomoki1207.pdf
+[11:42:41] Successfully uninstalled extension: visualstudioexptteam.vscodeintellicode
+[11:42:41] Successfully uninstalled extension: vsls-contrib.gistfs
+[11:42:41] Successfully uninstalled extension: xyz.local-history
+[11:42:41] Successfully uninstalled extension: metaseed.metajump
+[11:42:41] Successfully uninstalled extension: metaseed.metaword
+[11:42:41] Detected extension removed from another source jabacchetta.vscode-essentials
+[11:42:41] Detected extension removed from another source nhoizey.gremlins
+[11:42:41] Successfully uninstalled extension: jabacchetta.vscode-essentials
+New EH opened, aborting shutdown
+[11:42:42] New EH opened, aborting shutdown
+[11:43:05] [127.0.0.1][ccd18bf6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:43:06] [127.0.0.1][9ed45d10][ExtensionHostConnection] <412065> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[11:43:06] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[11:43:13] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[11:43:13] Cancelling previous shutdown timeout
+[11:43:13] [127.0.0.1][587cd2d4][ManagementConnection] New connection established.
+[11:43:13] [127.0.0.1][33356611][ExtensionHostConnection] New connection established.
+[11:43:13] [127.0.0.1][33356611][ExtensionHostConnection] <413467> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Listing 1 persistent terminals, 1 total terminals
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 13717 chars and 3 size events
+[11:44:56] [127.0.0.1][587cd2d4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:44:57] [127.0.0.1][33356611][ExtensionHostConnection] <413467> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[11:44:57] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[11:44:57] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[11:45:04] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[11:45:04] Cancelling previous shutdown timeout
+[11:45:04] [127.0.0.1][9f53902c][ManagementConnection] New connection established.
+[11:45:04] [127.0.0.1][985a8c12][ExtensionHostConnection] New connection established.
+[11:45:04] [127.0.0.1][985a8c12][ExtensionHostConnection] <413698> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Listing 1 persistent terminals, 1 total terminals
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 13717 chars and 3 size events
+New EH opened, aborting shutdown
+[11:50:04] New EH opened, aborting shutdown

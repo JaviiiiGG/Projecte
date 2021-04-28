@@ -1,0 +1,19 @@
+{
+    "assetEnvironment": "prod",
+    "assetsMD5": {
+        "codestream-11.0.4+4133.vsix": ""
+    },
+    "buildBranch": "master",
+    "buildDisplayString": "11.0.4+4133",
+    "buildNumber": "4133",
+    "fullName": "codestream-11.0.4+4133",
+    "name": "codestream",
+    "prefix": "",
+    "primaryRepo": "codestream",
+    "repoCommitId": {
+        "codestream": "baa4e8fd596e8ad688e2f1a7e74761aeea2e1920"
+    },
+    "sandboxType": "vscode2_sb",
+    "suffix": null,
+    "version": "11.0.4"
+}

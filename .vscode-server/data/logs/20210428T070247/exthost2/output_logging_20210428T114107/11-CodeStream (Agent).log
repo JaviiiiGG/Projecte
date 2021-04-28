@@ -1,0 +1,241 @@
+(node:413014) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[2021-04-28 11:41:09:188] Git found: 2.25.1 @ /usr/bin/git • 53 ms
+[2021-04-28 11:41:09:195] Agent for CodeStream v11.0.4-4133 in VS Code (v1.55.2) initializing...
+[2021-04-28 11:41:09:196] RepositoryLocator.start: waiting on session.ready
+[2021-04-28 11:41:09:197] Initializing Sentry...
+[2021-04-28 11:41:09:227] NODE_* environment variables:
+[2021-04-28 11:41:09:227] Proxy support is on, but no proxy url was found
+[2021-04-28 11:41:09:238] Verifying API server connectivity
+[2021-04-28 11:41:09:381] CodeStreamAgent.registerHandler(codestream/reporting/message)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/reporting/breadcrumb)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemarks/create)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/permalink)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemarks)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/sha1)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/range)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/delete)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/update)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/setPinned)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/pinReply)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/follow)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/review/follow)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemark/setStatus)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/companies)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/posts)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/posts/byIds)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/posts/activity)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/post/replies)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/codemarks/sharing/create)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/reviews/create)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/posts/create)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/posts/createWithCodemark)
+[2021-04-28 11:41:09:383] CodeStreamAgent.registerHandler(codestream/post/delete)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/post/edit)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/post/share-update)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/post/markUnread)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/post/markRead)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/post/react)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/post)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/reviews)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/contentsLocal)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/allContents)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/coverage)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/contents)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/update)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/delete)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/checkPreconditions)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/pr/branch/checkPreconditions)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/pr/checkPreconditions)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/pr/create)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/start)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/pause)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/end)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/review/createForUnreviewedCommits)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/textDocument/markers/create/link)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/textDocument/markers)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/textDocument/fromKey)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/textDocument/fromMarker)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/streams/fileStream)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/streams/file)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/repos/ignore-files)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/repos/ignore-files/add)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/marker)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/marker/move)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/markers/add)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/marker/delete)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/repos/map)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/repos/create)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/repos)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/repo)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/commit)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/repos)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/repo/statuses)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/branches)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/create-branch)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/switch-branch)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/repo/status)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/file/info)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/range/info)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/range/sha1)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/sha1/ranges)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/latestCommitters)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/latestCommit)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/commitAndPush)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/remotes)
+[2021-04-28 11:41:09:384] CodeStreamAgent.registerHandler(codestream/scm/remoteBranch)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/scm/commitsStatus)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/scm/file/diff)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/scm/branches/diff)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/scm/forkPoint)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/scm/commits/files)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/api/get)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/api/post)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/api/put)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/api/delete)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/streams)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/streams/unread)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/streams/createChannel)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/streams/createDirect)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/archive)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/close)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/join)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/leave)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/markRead)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/mute)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/open)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/rename)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/setPurpose)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/unarchive)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream/updateMembership)
+[2021-04-28 11:41:09:385] CodeStreamAgent.registerHandler(codestream/stream)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/teams)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/team)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/telemetry)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/text-files/read)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/text-files/write)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/scm/user/info)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/scm/workspace/repos)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/scm/workspace/autojoin)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/url/open)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/users)
+[2021-04-28 11:41:09:391] CodeStreamAgent.registerHandler(codestream/user/invite)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/delete)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/kick)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/update)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/updatePreferences)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/updateStatus)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/updateInvisible)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/setModifiedRepos)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user/updatePresence)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/users/me)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/users/me/unreads)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/user)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/users/me/preferences)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/connect)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/configure)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/add)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/remove)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/disconnect)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/cards/users)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/boards)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/cards)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/cards/workflow)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/cards/create)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/cards/move)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/channels)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/status/update)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/posts/create)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/pullrequest)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/pullrequestcommits)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/generic)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/query)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/providers/pullrequest/queries)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/create)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/sendPasswordResetEmail)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/setPassword)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/tag/create)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/tag/deleete)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/tag/update)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/admin/update)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/update)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/settings/update)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/team/add-blame-map)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/provider/token)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/upload/file)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/ui/state)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/verifyConnectivity)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/accessToken)
+[2021-04-28 11:41:09:392] CodeStreamAgent.registerHandler(codestream/login/password)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/login/token)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/login/otc)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/registration)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/registration/confirm)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/registration/invite-info)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/api)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/set-server)
+[2021-04-28 11:41:09:393] CodeStreamAgent.registerHandler(codestream/bootstrap)
+[2021-04-28 11:41:09:398] Agent is ready
+[2021-04-28 11:41:09:398] RepositoryLocator.start: starting startCore
+[2021-04-28 11:41:09:399] startCore: initializing promise
+[2021-04-28 11:41:09:399] getWorkspaceFolders: workspaces supported
+[2021-04-28 11:41:09:400] [aa] CodeStreamApiProvider.getTelemetryKey
+[2021-04-28 11:41:09:823] API server status: 200
+[2021-04-28 11:41:09:824] Got environment from connectivity response: — {"environment":"prod","isOnPrem":false,"isProductionCloud":true}
+[2021-04-28 11:41:09:825] [ab] CodeStreamAgent.sendNotification(codestream/didSetEnvironment)
+[2021-04-28 11:41:09:834] [ab] CodeStreamAgent.sendNotification(codestream/didSetEnvironment) completed • 8 ms
+[2021-04-28 11:41:09:836] VersionMiddlewareManager: API version changed from  to 8.2.37
+[2021-04-28 11:41:09:837] [ac] VersionMiddlewareManager.apiVersionNotify
+[2021-04-28 11:41:09:837] [ad] CodeStreamSession.onApiVersionCompatibilityChanged
+[2021-04-28 11:41:09:845] [ae] CodeStreamAgent.sendNotification(codestream/didChangeApiVersionCompatibility)
+[2021-04-28 11:41:09:845] [ae] CodeStreamAgent.sendNotification(codestream/didChangeApiVersionCompatibility) completed • 0 ms
+[2021-04-28 11:41:09:846] [ad] CodeStreamSession.onApiVersionCompatibilityChanged completed • 8 ms
+[2021-04-28 11:41:09:846] [ac] VersionMiddlewareManager.apiVersionNotify completed • 8 ms
+[2021-04-28 11:41:09:846] API(7700f3b9-eec4-4152-b0d8-a88cc7b475ff): Completed GET /no-auth/telemetry-key?secret=<hidden> • 445 ms
+[2021-04-28 11:41:09:846] [aa] CodeStreamApiProvider.getTelemetryKey completed • 446 ms
+[2021-04-28 11:41:13:067] Document opened: file:///opt/odoo/moduls/floristeria/views/views.xml
+[2021-04-28 11:41:13:072] startCore: Starting repository search in 1 folders
+[2021-04-28 11:41:13:073] repositorySearch: Searching for repositories (depth=2) in '/opt/odoo/moduls/floristeria' initializing=true isInWorkspace=true...
+[2021-04-28 11:41:13:074] GIT: Running(/opt/odoo/moduls/floristeria): git rev-parse --show-toplevel
+[2021-04-28 11:41:13:094] GIT: Completed(/opt/odoo/moduls/floristeria): git rev-parse --show-toplevel in 19 ms
+[2021-04-28 11:41:13:095] repositorySearch: Repository found in '/opt/odoo'
+[2021-04-28 11:41:13:102] [af] CodeStreamAgent.sendNotification(codestream/agentInitialized)
+[2021-04-28 11:41:13:103] [af] CodeStreamAgent.sendNotification(codestream/agentInitialized) completed • 0 ms
+[2021-04-28 11:41:13:138] repositorySearch: Searching for repositories (depth=2) in '/opt/odoo/moduls/floristeria' took 64 ms
+[2021-04-28 11:41:13:138] startCore: found 1 repositories in [object Object]
+[2021-04-28 11:41:13:138] startCore: processed 1 repositories
+[2021-04-28 11:41:13:139] startCore: resolving true
+[2021-04-28 11:41:24:467] Verifying API server connectivity
+[2021-04-28 11:41:24:497] startCore: existing promise found - awaiting
+[2021-04-28 11:41:24:497] startCore: existing promise found - done
+[2021-04-28 11:41:24:498] GIT: Running(/opt/odoo): git rev-list --date-order master --
+[Warn  - 11:41:24 AM] [2021-04-28 11:41:24:518] Error(/opt/odoo): /usr/bin/git -c core.quotepath=false -c color.ui=false rev-list --date-order master --)
+    (128) Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-list --date-order master --
+fatal: bad revision 'master'
+
+fatal: bad revision 'master'
+
+[Error - 11:41:24 AM] [2021-04-28 11:41:24:519] git — -c, core.quotepath=false, -c, color.ui=false, rev-list, --date-order, master, --,   cwd='/opt/odoo'
+
+  
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-list --date-order master --
+fatal: bad revision 'master'
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-list --date-order master --
+fatal: bad revision 'master'
+
+    at ChildProcess.exithandler (child_process.js:303:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+[2021-04-28 11:41:24:519] GIT: Completed(/opt/odoo): git rev-list --date-order master -- in 21 ms
+[2021-04-28 11:41:24:520] GIT: Running(/opt/odoo): git rev-list --date-order HEAD --
+[2021-04-28 11:41:24:534] GIT: Completed(/opt/odoo): git rev-list --date-order HEAD -- in 14 ms
+[2021-04-28 11:41:24:535] GIT: Running(/opt/odoo): git branch --sort=committerdate --
+[2021-04-28 11:41:24:551] GIT: Completed(/opt/odoo): git branch --sort=committerdate -- in 16 ms
+[2021-04-28 11:41:24:551] GIT: Running(/opt/odoo): git merge-base --fork-point main --
+[2021-04-28 11:41:24:567] GIT: Completed(/opt/odoo): git merge-base --fork-point main -- in 16 ms
+[2021-04-28 11:41:24:951] API server status: 200
+[2021-04-28 11:41:24:952] [b0] CodeStreamSession.verifyConnectivity completed • 485 ms
+[2021-04-28 11:41:25:094] API(c133fbee-9e12-40bc-bc4a-ec4ac9ec7401): Completed GET /no-auth/team-lookup?commitHashes=a1379a460c800c6f80f24071edfcc55b6d31280a%2C741ec7692b2e55a1c2c8666fc6ee704b79b57695%2Cc4e0a1cc786d5a4ccb112e91727d5a72c9aa4da6%2Ca1379a460c800c6f80f24071edfcc55b6d31280a • 525 ms

@@ -1,3 +1,4 @@
+
 <odoo>
   <data>
     <!-- explicit list view definition -->
@@ -78,14 +79,25 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="floristeria.productes_tree"> <!-- Vista tree Productes -->
-      <field name="name">floristeria.productes.tree</field>
+    <record model="ir.ui.view" id="floristeria.productes_kanban"> <!-- Vista tree Productes -->
+      <field name="name">floristeria.productes.kanban</field>
       <field name="model">floristeria.productes</field>
       <field name="arch" type="xml">
-        <tree>
-          <field name="name"/>
-          <field name="preuProducte"/>
-        </tree>
+        <kanban>
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_global_click">
+                <div class="o_kanban_image">
+                  <field name="imatge" widget="image"/>
+                </div>
+                <div class="oe_kanban_details">
+                  <strong><field name="name"/></strong>
+                  <p>Preu: <field name="preuProducte" widget="monetary"/> €</p>
+                </div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
       </field>
     </record>
 
@@ -94,13 +106,28 @@
       <field name="model">floristeria.productes</field>
       <field name="arch" type="xml">
         <form>
-          <group colspan="2" col="2"> 
-            <field name="imatge" widget="image" height="200" width="200"/>
-            <field name="name"/>
-            <field name="preuProducte"/>
-            <field name="descripcio"/>
-            <field name="cantitat"/>
-          </group>
+          <sheet>
+            <div class="container"  style="display:flex; flex-flow:row nowrap; justify-content:space-between">
+              <div> 
+                <h1><field name="name" placeholder="Nom Producte"/></h1>
+              </div>
+              <div>
+                <field name="imatge" widget="image" height="200" width="200"/>
+              </div>
+            </div>
+            <br></br>
+            <hr></hr>
+            <br></br>
+            <div>
+              <label for="preuProducte" string="Preu"/>
+              <field name="preuProducte" widget="monetary" options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+            </div>
+            <br></br>
+            <div>
+              <label for="descripcio" string="Descripció"/>
+              <field name="descripcio" maxlength="100"/>
+            </div>
+          </sheet>
         </form>
       </field>
     </record>
@@ -120,7 +147,7 @@
     <record model="ir.actions.act_window" id="floristeria.productes_action_window">      
       <field name="name">Productes</field>      
       <field name="res_model">floristeria.productes</field>      
-      <field name="view_mode">tree,form</field>    
+      <field name="view_mode">kanban,form</field>    
     </record>
 
     <!-- Top menu item -->

@@ -1,0 +1,23 @@
+[2021-04-28 11:45:08.788] [exthost] [info] extension host started
+[2021-04-28 11:45:09.425] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-04-28 11:45:09.430] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/debug-auto-launch/dist/extension
+[2021-04-28 11:45:09.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-28 11:45:09.448] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/git/dist/main
+[2021-04-28 11:45:09.573] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":true,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"*"}
+[2021-04-28 11:45:09.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-04-28 11:45:09.660] [exthost] [info] ExtensionService#_doActivateExtension jigar-patel.OdooSnippets {"startup":true,"extensionId":{"value":"jigar-patel.OdooSnippets","_lower":"jigar-patel.odoosnippets"},"activationEvent":"*"}
+[2021-04-28 11:45:09.660] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/extensions/jigar-patel.odoosnippets-1.2.0/extension.js
+[2021-04-28 11:45:10.316] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-28 11:45:10.317] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/github/dist/extension.js
+[2021-04-28 11:45:10.540] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-04-28 11:45:10.540] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/emmet/dist/node/emmetNodeMain
+[2021-04-28 11:45:10.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-04-28 11:45:10.585] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/merge-conflict/dist/mergeConflictMain
+[2021-04-28 11:45:10.594] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-04-28 11:45:10.594] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/testing-editor-contributions/dist/extension.js
+[2021-04-28 11:45:10.596] [exthost] [info] eager extensions activated
+[2021-04-28 11:45:10.620] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-04-28 11:45:10.620] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/ms-vscode.js-debug/src/extension.js
+[2021-04-28 11:45:22.962] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5000
+[2021-04-28 11:46:21.565] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-04-28 11:46:21.566] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/typescript-language-features/dist/extension
