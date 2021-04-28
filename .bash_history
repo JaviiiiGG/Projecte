@@ -58,3 +58,7 @@ su ubuntu
 su ubuntu
 su ubuntu
 su ubuntu
+su ubuntu
+git add .
+git commit -m "creacio de la estructura de la bd"
+git push

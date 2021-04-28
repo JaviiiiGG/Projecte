@@ -13,3 +13,7 @@
 [2021-04-27 17:57:16.858] [remoteagent] [info] [127.0.0.1][907a23c8][ManagementConnection] New connection established.
 [2021-04-27 17:57:16.976] [remoteagent] [info] [127.0.0.1][d4e75c32][ExtensionHostConnection] <343911> Launched Extension Host Process.
 [2021-04-27 17:57:27.609] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-04-27 18:07:14.510] [remoteagent] [info] [127.0.0.1][907a23c8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-04-27 18:07:15.542] [remoteagent] [info] [127.0.0.1][d4e75c32][ExtensionHostConnection] <343911> Extension Host Process exited with code: 0, signal: null.
+[2021-04-27 18:07:15.543] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-04-27 18:12:15.544] [remoteagent] [info] Last EH closed, shutting down

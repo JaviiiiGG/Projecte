@@ -19,3 +19,7 @@
 [2021-04-27 17:57:20.471] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
 [2021-04-27 17:57:20.472] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/odoo/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/ms-vscode.js-debug/src/extension.js
 [2021-04-27 17:57:22.174] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1941
+[2021-04-27 18:04:19.954] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1941
+[2021-04-27 18:05:22.197] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1941
+[2021-04-27 18:07:14.517] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-27 18:07:15.531] [exthost] [info] exiting with code 0
