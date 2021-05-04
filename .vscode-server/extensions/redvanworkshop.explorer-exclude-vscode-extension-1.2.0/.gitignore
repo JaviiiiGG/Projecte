@@ -1,4 +1,0 @@
-*.vsix
-*.code-workspace
-node_modules
-.vscode/settings.json
