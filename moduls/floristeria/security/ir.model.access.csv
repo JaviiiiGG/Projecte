@@ -1,2 +1,8 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_floristeria_floristeria,floristeria.floristeria,model_floristeria_floristeria,base.group_user,1,1,1,1
+clients_admin,Clients Admin,model_floristeria_clients,floristeria_admin,1,1,1,1
+comandes_admin,Comandes Admin,model_floristeria_comandes,floristeria_admin,1,1,1,1
+productes_admin,Productes Admin,model_floristeria_productes,floristeria_admin,1,1,1,1
+
+clients_usuari,Clients Usuari,model_floristeria_clients,floristeria_usuari,0,0,0,0
+comandes_usuari,Comandes Usuari,model_floristeria_comandes,floristeria_usuari,0,0,0,0
+productes_usuari,Productes Usuari,model_floristeria_productes,floristeria_usuari,0,0,0,0

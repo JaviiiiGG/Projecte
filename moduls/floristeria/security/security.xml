@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="floristeria_admin" model="res.groups">
+            <field name="name">Floristeria / Admin </field>
+        </record>
+        <record id="floristeria_usuari" model="res.groups">
+            <field name="name">Floristeria / Usuari </field>
+        </record>
+    </data>
+</odoo>

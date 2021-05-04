@@ -43,7 +43,21 @@ class flor_comandes(models.Model): #Tabla Comandes
     preu = fields.Float(string='Preu', help="Preu aproximat")
     preuFinal = fields.Float(string='Preu Final', help="Preu Final")
     pagat = fields.Boolean(string='Pagat?', default=False, help="Marcat = pagat, No Marcat = No Pagat")
+    tipusPago = fields.Selection([('efectiu', 'Efectiu'),('targeta', 'Targeta')], string='Tipus de Pago')
+
+    @api.onchange('portar')
+    def _borrarDireccio(self):
+        for r in self:
+            if not r.portar:
+                r.direccio=""
     
+    @api.onchange('pagat')
+    def _borrarPago(self):
+        for r in self:
+            if not r.pagat:
+                r.tipusPago=""
+    
+
 class flor_productes(models.Model): #Tabla Productes
     _name = 'floristeria.productes'
 
@@ -51,6 +65,12 @@ class flor_productes(models.Model): #Tabla Productes
     descripcio = fields.Char(string='Descripció', help="Descripció curta sobre el producte")
     preuProducte = fields.Float(string='Preu', help="Preu del producte amb l'IVA incluït")
     imatge = fields.Binary(string='Imatge')
-    cantitat = fields.Integer(string='Cantitat')
+    quantitat = fields.Integer(string='Quantitat')
     total = fields.Integer(string='Total')
     comandes = fields.Many2many("floristeria.comandes", string="Comandes")
+    moviment = fields.Integer(string='')
+
+    @api.onchange('quantitat')
+    def _actualitzarTotal(self):
+        self.total=self.quantitat*self.preuProducte
+

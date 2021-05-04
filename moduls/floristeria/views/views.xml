@@ -19,21 +19,24 @@
       <field name="name">floristeria.clients.form</field>
       <field name="model">floristeria.clients</field>      
       <field name="arch" type="xml">        
-        <form>          
-          <group colspan="2" col="2">            
-            <field name="name"/>            
-            <field name="cognom"/>
-            <field name="telefon"/>
-            <field name="mail"/>
-            <field name="comandes">
-              <tree decoration-danger="pagat==False" decoration-success="pagat==True">
-                <field name="data"/>
-                <field name="portar"/>
-                <field name="preuFinal"/>
-                <field name="pagat"/>
-              </tree>
-            </field>
-          </group>        
+        <form>
+          <sheet>          
+            <group colspan="2" col="2">            
+              <field name="name"/>            
+              <field name="cognom"/>
+              <field name="telefon" widget="phone"/>
+              <field name="mail" widget="email"/>
+              <field name="comandes">
+                <tree decoration-danger="pagat==False" decoration-success="pagat==True">
+                  <field name="name"/>
+                  <field name="data"/>
+                  <field name="portar"/>
+                  <field name="preuFinal"/>
+                  <field name="pagat" invisible="1"/>
+                </tree>
+              </field>
+            </group> 
+          </sheet>         
         </form>      
       </field>    
     </record>
@@ -43,12 +46,14 @@
       <field name="model">floristeria.comandes</field>
       <field name="arch" type="xml">
         <tree decoration-danger="pagat==False" decoration-success="pagat==True">
-          <field name="nameClient"/>
+          <field name="name"/>
+          <field name="nameClient" invisible="1"/>
           <field name="data"/>
           <field name="portar"/>
-          <field name="preu"/>
-          <field name="preuFinal"/>
+          <field name="preu" widget="monetary"/>
+          <field name="preuFinal" widget="monetary"/>
           <field name="pagat" invisible="1"/>
+          <field name="tipusPago" invisible="1"/>
         </tree>
       </field>
     </record>
@@ -58,28 +63,40 @@
       <field name="model">floristeria.comandes</field>
       <field name="arch" type="xml">
         <form>
-          <group colspan="2" col="2"> 
-            <field name="nameClient"/>
-            <field name="data"/>
-            <field name="direccio"/>
-            <field name="portar"/>
-            <field name="productes">
-              <tree> 
-                <field name="name"/>
-                <field name="preuProducte"/>
-                <field name="cantitat"/>
-                <field name="total"/>
+          <group> 
+            <group id="header_left_group">
+              <field name="name"/>
+              <field name="nameClient"/>
+              <field name="data"/>
+            </group>
+            <group id="header_right_group">
+              <field name="portar"/>
+              <field name="direccio" attrs="{'invisible':[('portar','=', False)]}"/>
+              <field name="pagat"/>
+              <field name="tipusPago" attrs="{'invisible':[('pagat','=', False)]}"/>
+            </group>
+            <field name="productes" mode="tree">
+              <tree editable="bottom" string="Journal Items">
+                <control>
+                  <create name="add_line_control" string="Afegir producte"/>
+                </control>
+                <field name="moviment" widget="handle"/>
+                <field name="name" widget="section_and_note_text"/>
+                <field name="quantitat"/>
+                <field name="preuProducte" string="Preu"/>
+                <field name="total" string="Total"/>
               </tree>
             </field>
-            <field name="preu"/>
-            <field name="preuFinal"/>
-            <field name="pagat"/>
+            <group class="oe_subtotal_footer">
+              <field name="preu"  widget="monetary"/>
+              <field name="preuFinal" class="oe_subtotal_footer_separator" widget="monetary"/>
+            </group>
           </group>
         </form>
       </field>
     </record>
 
-    <record model="ir.ui.view" id="floristeria.productes_kanban"> <!-- Vista tree Productes -->
+    <record model="ir.ui.view" id="floristeria.productes_kanban"> <!-- Vista kanban Productes -->
       <field name="name">floristeria.productes.kanban</field>
       <field name="model">floristeria.productes</field>
       <field name="arch" type="xml">
@@ -112,12 +129,10 @@
                 <h1><field name="name" placeholder="Nom Producte"/></h1>
               </div>
               <div>
-                <field name="imatge" widget="image" height="200" width="200"/>
+                <field name="imatge" widget="image" height="150" width="150"/>
               </div>
             </div>
-            <br></br>
-            <hr></hr>
-            <br></br>
+            <br></br><hr></hr><br></br>
             <div>
               <label for="preuProducte" string="Preu"/>
               <field name="preuProducte" widget="monetary" options="{'currency_field': 'currency_id', 'field_digits': True}"/>
@@ -130,6 +145,22 @@
           </sheet>
         </form>
       </field>
+    </record>
+
+    <!-- search -->
+
+    <record model="ir.ui.view" id="floristeria.comandes_search_view">      
+      <field name="name">floristeria.comandes.search</field>      
+      <field name="model">floristeria.comandes</field>
+      <field name="arch" type="xml">        
+        <search>          
+          <field name="name" string="Nom"/>          
+          <filter name="Pagat" domain="[('pagat','=','True')]"/>
+          <filter name="No pagat" domain="[('pagat','!=','True')]"/>
+          <filter name="Portar" domain="[('portar','=','True')]"/>
+          <filter name="No portar" domain="[('portar','!=','True')]"/>
+        </search>      
+      </field>   
     </record>
 
     <!-- actions -->
