@@ -75,16 +75,14 @@
               <field name="pagat"/>
               <field name="tipusPago" attrs="{'invisible':[('pagat','=', False)]}"/>
             </group>
-            <field name="productes" mode="tree">
+            <field name="productes">
               <tree editable="bottom" string="Journal Items">
                 <control>
                   <create name="add_line_control" string="Afegir producte"/>
                 </control>
                 <field name="moviment" widget="handle"/>
                 <field name="name" widget="section_and_note_text"/>
-                <field name="quantitat"/>
                 <field name="preuProducte" string="Preu"/>
-                <field name="total" string="Total"/>
               </tree>
             </field>
             <group class="oe_subtotal_footer">
@@ -147,6 +145,18 @@
       </field>
     </record>
 
+    <record model="ir.ui.view" id="floristeria.comandes_calendar"> <!-- Vista calendar Comandes -->
+      <field name="name">floristeria.comandes.calendar</field>
+      <field name="model">floristeria.comandes</field>
+      <field name="arch" type="xml">
+        <calendar string="Calendari Comandes" 
+                  date_start="data"
+                  color="nameClient">
+          <field name="name"/>
+        </calendar>
+      </field>
+    </record>
+
     <!-- search -->
 
     <record model="ir.ui.view" id="floristeria.comandes_search_view">      
@@ -173,7 +183,7 @@
     <record model="ir.actions.act_window" id="floristeria.comandes_action_window">      
       <field name="name">Comandes</field>      
       <field name="res_model">floristeria.comandes</field>      
-      <field name="view_mode">tree,form</field>    
+      <field name="view_mode">tree,form,calendar</field>    
     </record>
     <record model="ir.actions.act_window" id="floristeria.productes_action_window">      
       <field name="name">Productes</field>      
@@ -183,7 +193,7 @@
 
     <!-- Top menu item -->
 
-    <menuitem name="Floristeria" id="floristeria.menu_root"/>
+    <menuitem name="Floristeria" id="floristeria.menu_root" groups="floristeria_admin"/>
 
     <!-- menu categories -->
 
@@ -191,17 +201,47 @@
       name="Clients" 
       id="floristeria.clients_menu" 
       parent="floristeria.menu_root"
-      action="floristeria.clients_action_window"/>
+      action="floristeria.clients_action_window"
+      groups="floristeria_admin"/>
     <menuitem 
       name="Comandes" 
       id="floristeria.comandes_menu" 
       parent="floristeria.menu_root"
-      action="floristeria.comandes_action_window"/>
+      action="floristeria.comandes_action_window"
+      groups="floristeria_admin"/>
     <menuitem 
       name="Productes" 
       id="floristeria.productes_menu" 
       parent="floristeria.menu_root"
-      action="floristeria.productes_action_window"/>  
+      action="floristeria.productes_action_window"
+      groups="floristeria_admin"/> 
+
+
+    <!-- Wizard --> 
+
+    <record model="ir.ui.view" id="wizard_form_view">
+      <field name="name">wizard.form</field>
+      <field name="model">floristeria.wizard</field>
+      <field name="arch" type="xml">
+        <form string="Comanda">
+          <group>
+            <field name="comandesWizard"/>
+            <field name="preuProducte"/>
+          </group>
+          <footer>
+            <button name="subscribe" type="object" string="Acceptar" class="oe_highlight"/>
+            <button special="cancel" string="Cancelar"/>
+          </footer>
+        </form>
+      </field>
+    </record>
+    <act_window 
+      id="launch_session_wizard"
+      name="Afegir Comanda"
+      binding_model="floristeria.comandes"
+      res_model="floristeria.wizard"
+      view_mode="form"
+      target="new"/>
     
   </data>
 </odoo>

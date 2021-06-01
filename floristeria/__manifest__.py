@@ -4,7 +4,7 @@
 
     'summary': """
         Mòdul per a la gestió d'una floristeria.
-        Controla els clients, els productes, les encomandes, etc.""",
+        Controla els clients, els productes, les comandes, etc.""",
 
     'description': "",
 
@@ -26,6 +26,7 @@
         'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'data/data.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

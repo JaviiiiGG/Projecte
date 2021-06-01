@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="flor1" model="floristeria.productes">
+            <field name="name">Clavell</field>
+            <field name="imatge" type="base64" file="floristeria/data/img/clavell.png"/> 
+        </record>
+        <record id="flor2" model="floristeria.productes">
+            <field name="name">Rosa</field>
+            <field name="imatge" type="base64" file="floristeria/data/img/rosa.png"/> 
+            <field name="preuProducte">10</field>
+        </record>
+        <record id="flor3" model="floristeria.productes">
+            <field name="name">Gerbera</field>
+            <field name="imatge" type="base64" file="floristeria/data/img/gerbera.png"/> 
+        </record>
+        <record id="flor4" model="floristeria.productes">
+            <field name="name">Anthurium</field>
+            <field name="imatge" type="base64" file="floristeria/data/img/anthurium.png"/> 
+        </record>
+        <record id="flor5" model="floristeria.productes">
+            <field name="name">Gladiolo</field>
+            <field name="imatge" type="base64" file="floristeria/data/img/gladiolo.png"/> 
+        </record>
+    </data>
+</odoo>
+

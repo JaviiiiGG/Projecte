@@ -40,10 +40,12 @@ class flor_comandes(models.Model): #Tabla Comandes
     direccio = fields.Char(string="Direcció", help="Direcció de la encomanda si es te que portar")
     portar = fields.Boolean(string="Portar?", help="Ho portem o venen ells?")
     productes = fields.Many2many('floristeria.productes','comandes',string="Productes")
-    preu = fields.Float(string='Preu', help="Preu aproximat")
+    #total = fields.Float(string='Total')
+    preu = fields.Float(string='Preu', help="Preu aproximat"  ''', compute="_calcPreu"''')
     preuFinal = fields.Float(string='Preu Final', help="Preu Final")
     pagat = fields.Boolean(string='Pagat?', default=False, help="Marcat = pagat, No Marcat = No Pagat")
     tipusPago = fields.Selection([('efectiu', 'Efectiu'),('targeta', 'Targeta')], string='Tipus de Pago')
+    movimentComandes = fields.Integer(string='')
 
     @api.onchange('portar')
     def _borrarDireccio(self):
@@ -56,6 +58,11 @@ class flor_comandes(models.Model): #Tabla Comandes
         for r in self:
             if not r.pagat:
                 r.tipusPago=""
+
+    '''@api.depends('total','preu')
+    def _calcPreu(self):
+        for r in self:
+           preu = r.total + preu'''
     
 
 class flor_productes(models.Model): #Tabla Productes
@@ -65,12 +72,6 @@ class flor_productes(models.Model): #Tabla Productes
     descripcio = fields.Char(string='Descripció', help="Descripció curta sobre el producte")
     preuProducte = fields.Float(string='Preu', help="Preu del producte amb l'IVA incluït")
     imatge = fields.Binary(string='Imatge')
-    quantitat = fields.Integer(string='Quantitat')
-    total = fields.Integer(string='Total')
-    comandes = fields.Many2many("floristeria.comandes", string="Comandes")
+    comandes = fields.Many2many("floristeria.comandes",'productes', string="Comandes")
     moviment = fields.Integer(string='')
-
-    @api.onchange('quantitat')
-    def _actualitzarTotal(self):
-        self.total=self.quantitat*self.preuProducte
 
