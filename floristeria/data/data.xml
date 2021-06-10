@@ -5,23 +5,43 @@
             <field name="name">Clavell</field>
             <field name="imatge" type="base64" file="floristeria/data/img/clavell.png"/> 
         </record>
+
         <record id="flor2" model="floristeria.productes">
             <field name="name">Rosa</field>
             <field name="imatge" type="base64" file="floristeria/data/img/rosa.png"/> 
             <field name="preuProducte">10</field>
         </record>
+
         <record id="flor3" model="floristeria.productes">
             <field name="name">Gerbera</field>
             <field name="imatge" type="base64" file="floristeria/data/img/gerbera.png"/> 
         </record>
+
         <record id="flor4" model="floristeria.productes">
             <field name="name">Anthurium</field>
             <field name="imatge" type="base64" file="floristeria/data/img/anthurium.png"/> 
         </record>
+
         <record id="flor5" model="floristeria.productes">
             <field name="name">Gladiolo</field>
             <field name="imatge" type="base64" file="floristeria/data/img/gladiolo.png"/> 
         </record>
+        
+        <record id="paperformat_informe" model="report.paperformat">
+        <field name="name">Resum Venta</field>
+        <field name="default" eval="False"/>
+        <field name="format">A4</field>
+        <field name="page_width">0</field>
+        <field name="page_width">0</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">30</field>
+        <field name="margin_bottom">28</field> 
+        <field name="margin_right">7</field>
+        <field name="margin_left">7</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">15</field>
+        <field name="dpi">90</field>
+    </record>
     </data>
 </odoo>
 

@@ -1,18 +1,63 @@
 from odoo import models, fields, api
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as DATE_FORMAT
+from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT as DATETIME_FORMAT
 
-class Wizard(models.TransientModel):
+from datetime import datetime, timedelta
+
+class ReportWizard(models.TransientModel):
     _name = 'floristeria.wizard'
 
-    def _default_comandes(self):
-        return self.env['floristeria.comandes'].browse(self._context.get('active_ids'))
-    def _default_preu_producte(self):
-        return self.env['floristeria.productes'].browse(self._context.get('preuProducte'))
-    #def _default_nom_producte(self):
-    #    return self.env['floristeria.productes'].browse(self._context.get('name'))
+    data_inici = fields.Date(string='Data Inici', required=True, default=fields.Date.today)
+    data_final = fields.Date(string='Data Final', required=True, default=fields.Date.today)
 
-
-    comandesWizard = fields.Many2one('floristeria.comandes', string="Comandes", default=_default_comandes)
-    #nomProducte = fields.Many2many('floristeria.productes', string="Nom Producte", default=_default_nom_producte)
-    preuProducte = fields.Many2many('floristeria.productes', string="Preu Producte", default=_default_preu_producte)
-
+    def get_report(self):
+        data = {
+            'model': self._name,
+            'ids': self.ids,
+            'form':{
+                'data_inici': self.data_inici, 'data_inici': self.data_final,
+            }
+        }
+        print(data)
+        return self.env.ref('floristeria.informe').report_action(self, data=data)
     
+class ReportView(models.AbstractModel):
+    _name = 'report.floristeria.informe_view'
+
+    @api.model
+    def _get_report_values(self, docids, data=None):
+        data_inici = data['form']['data_inici']
+        data_final = data['form']['data_final']
+
+        so = self.env['sale.comanda']
+        inici = datetime.strptime(data_inici, DATE_FORMAT)
+        final = datetime.strptime(data_final, DATE_FORMAT)
+        delta = timedelta(days=1)
+
+        docs = []
+        while inici <= final:
+            date = inici
+            inici += delta
+
+            print(date, inici)
+            comandes = so.search([
+                ('confirmation_date', '>=', date.strftime(DATETIME_FORMAT)),
+                ('confirmation_date', '<', inici.strftime(DATETIME_FORMAT)),
+                ('state', 'in', ['sale', 'done'])
+            ])
+            comandes_totals = len(comandes)
+            suma_total = sum(comanda.suma_total for comanda in comandes)
+
+            docs.append({
+                'date': date.strftime("%d-%m-%Y"),
+                'comandes_totals': comandes_totals,
+                'suma_total': suma_total,
+                'company': self.env.user.company_id
+            })
+        return {
+            'doc_ids': data ['ids'],
+            'doc_model': data ['model'],
+            'data_inici': data_inici,
+            'data_final': data_final,
+            'docs': docs,
+        }

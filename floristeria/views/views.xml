@@ -202,34 +202,47 @@
       id="floristeria.clients_menu" 
       parent="floristeria.menu_root"
       action="floristeria.clients_action_window"
+      sequence="1"
       groups="floristeria_admin"/>
     <menuitem 
       name="Comandes" 
       id="floristeria.comandes_menu" 
       parent="floristeria.menu_root"
       action="floristeria.comandes_action_window"
+      sequence="2"
       groups="floristeria_admin"/>
     <menuitem 
       name="Productes" 
       id="floristeria.productes_menu" 
       parent="floristeria.menu_root"
       action="floristeria.productes_action_window"
-      groups="floristeria_admin"/> 
+      sequence="3"
+      groups="floristeria_admin"/>
+    <menuitem 
+      name="Opcions" 
+      id="floristeria.opcions_menu" 
+      parent="floristeria.menu_root"
+      sequence="4"
+      groups="floristeria_admin"/>
 
 
     <!-- Wizard --> 
 
     <record model="ir.ui.view" id="wizard_form_view">
-      <field name="name">wizard.form</field>
+      <field name="name">wizard.tree</field>
       <field name="model">floristeria.wizard</field>
       <field name="arch" type="xml">
         <form string="Comanda">
           <group>
-            <field name="comandesWizard"/>
-            <field name="preuProducte"/>
+                <group>
+                    <field name="data_inici"/>
+                </group>
+                <group>
+                    <field name="data_final"/>
+                </group>
           </group>
           <footer>
-            <button name="subscribe" type="object" string="Acceptar" class="oe_highlight"/>
+            <button name="get_report" type="object" string="Generar" class="oe_highlight"/>
             <button special="cancel" string="Cancelar"/>
           </footer>
         </form>
@@ -237,11 +250,15 @@
     </record>
     <act_window 
       id="launch_session_wizard"
-      name="Afegir Comanda"
-      binding_model="floristeria.comandes"
       res_model="floristeria.wizard"
       view_mode="form"
+      name="Generar Informe Comandes"
       target="new"/>
     
+    <menuitem
+      id="floristeria.menu_wizard"
+      parent="floristeria.opcions_menu"
+      action="launch_session_wizard"
+      groups="floristeria_admin"/>
   </data>
 </odoo>
