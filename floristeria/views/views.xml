@@ -228,8 +228,8 @@
 
     <!-- Wizard --> 
 
-    <record model="ir.ui.view" id="wizard_form_view">
-      <field name="name">wizard.tree</field>
+    <record model="ir.ui.view" id="informe_wizard">
+      <field name="name">Informe Wizard</field>
       <field name="model">floristeria.wizard</field>
       <field name="arch" type="xml">
         <form string="Comanda">

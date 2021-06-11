@@ -5,13 +5,13 @@
       string="Informe de les comandes" 
       model="floristeria.comandes" 
       report_type="qweb-pdf" 
-      name="floristeria.informe"
+      name="floristeria.informe_view"
       paperformat="paperformat_informe"
       menu="False"/>
     <template id="informe_view">
       <t t-call="web.html_container">
         <div class="header" style="border-bottom: 1px solid black;">
-            <h3 class="text-center">
+            <h3 class="text-center">Informe de Comandes
                 <span style="font-size: 14px;"><strong>De</strong>: <t t-esc="data_inici"/> <strong>Fins</strong>: <t t-esc="data_final"/></span>
             </h3>
         </div>

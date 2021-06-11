@@ -15,7 +15,7 @@ class ReportWizard(models.TransientModel):
             'model': self._name,
             'ids': self.ids,
             'form':{
-                'data_inici': self.data_inici, 'data_inici': self.data_final,
+                'data_inici': self.data_inici, 'data_final': self.data_final,
             }
         }
         print(data)
@@ -29,7 +29,7 @@ class ReportView(models.AbstractModel):
         data_inici = data['form']['data_inici']
         data_final = data['form']['data_final']
 
-        so = self.env['sale.comanda']
+        so = self.env['floristeria.comandes']
         inici = datetime.strptime(data_inici, DATE_FORMAT)
         final = datetime.strptime(data_final, DATE_FORMAT)
         delta = timedelta(days=1)
@@ -41,12 +41,11 @@ class ReportView(models.AbstractModel):
 
             print(date, inici)
             comandes = so.search([
-                ('confirmation_date', '>=', date.strftime(DATETIME_FORMAT)),
-                ('confirmation_date', '<', inici.strftime(DATETIME_FORMAT)),
-                ('state', 'in', ['sale', 'done'])
+                ('data', '>=', date.strftime(DATETIME_FORMAT)),
+                ('data', '<', inici.strftime(DATETIME_FORMAT)),
             ])
             comandes_totals = len(comandes)
-            suma_total = sum(comanda.suma_total for comanda in comandes)
+            suma_total = sum(comanda.preuFinal for comanda in comandes)
 
             docs.append({
                 'date': date.strftime("%d-%m-%Y"),
